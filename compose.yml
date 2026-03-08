@@ -1,6 +1,8 @@
 services:
   metarate:
-    build: ./metarate
+    build:
+      context: .
+      dockerfile: metarate/Dockerfile
     image: metarate
     container_name: metarate
     restart: always
@@ -8,7 +10,7 @@ services:
     env_file:
       - .env
     links:
-      - "postgres:dbps"
+      - "postgres:${DATABASE_HOST}"
     networks:
       - backend
     volumes:

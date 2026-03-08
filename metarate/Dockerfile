@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED=1
 RUN pip install --upgrade pip
 
 WORKDIR /app/www/metarate
-COPY ../requirements.txt .
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
