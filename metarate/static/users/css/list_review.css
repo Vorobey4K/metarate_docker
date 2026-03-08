@@ -1,0 +1,81 @@
+/* ---------- Секция рецензий ---------- */
+.profile-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ---------- Карточка рецензии ---------- */
+.review-card {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--color-shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: var(--color-surface);
+}
+
+.review-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* ---------- Sentiment цвета ---------- */
+.review-card.positive {
+    background-color: #D1F2EB; /* мягкий зелёный */
+}
+.review-card.neutral {
+    background-color: #F5F3ED;
+}
+
+.review-card.negative {
+    background-color: #FDE2E2; /* мягкий красный */
+}
+
+/* ---------- Заголовок контента ---------- */
+.review-media-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+}
+
+.review-media-title a {
+    color: var(--color-accent-main);
+    text-decoration: none;
+}
+
+.review-media-title a:hover {
+    color: var(--color-accent-secondary);
+}
+
+/* ---------- Заголовок рецензии ---------- */
+.review-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    color: var(--color-text-primary);
+}
+
+/* ---------- Текст рецензии ---------- */
+.review-text {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+/* ---------- Оценка ---------- */
+.review-rating {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--color-accent-main);
+}
+
+/* ---------- Сообщение, если нет рецензий ---------- */
+.no-content {
+    text-align: center;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    padding: 20px;
+    background-color: var(--color-surface);
+    border-radius: 12px;
+}

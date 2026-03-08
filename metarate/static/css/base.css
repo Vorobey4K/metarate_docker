@@ -1,0 +1,150 @@
+:root {
+  /* Фоны и нейтраль */
+  --color-bg: #FFFFFF;               /* основной фон */
+  --color-surface: #F2F2F2;          /* фон карточек/секций */
+
+  /* Текст */
+  --color-text-primary: #111827;     /* основной текст */
+  --color-text-secondary: #6B7280;   /* второстепенный текст */
+
+  /* Акценты */
+  --color-accent-main: #7FB3C3;      /* основной цвет кнопок и ссылок */
+  --color-accent-secondary: #5B95A3; /* чуть темнее для hover/подсветки */
+  --color-accent-tertiary: #A3C36D;  /* мягкий зеленый для успеха/подтверждений */
+
+  /* Границы и тени */
+  --color-border: #E5E7EB;
+  --color-shadow: rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- Сброс стилей ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+}
+
+/* ---------- Wrapper для sticky footer ---------- */
+.site-wrapper {
+  min-height: 100vh;         /* минимальная высота на весь экран */
+  display: flex;
+  flex-direction: column;     /* header -> main -> footer */
+}
+
+/* Контент растягивается */
+.site-content {
+  flex: 1;                    /* растягиваем контент, чтобы футер был внизу */
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ---------- Ссылки ---------- */
+a {
+  color: var(--color-accent-main);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--color-accent-secondary);
+}
+
+/* ---------- Навигация ---------- */
+.site-header {
+  background-color: var(--color-surface);
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px var(--color-shadow);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 15px;
+}
+
+.navigation-list li a {
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.navigation-list li a:hover {
+  background-color: var(--color-accent-secondary);
+  color: var(--color-bg);
+}
+
+/* ---------- Пагинация ---------- */
+.pagination-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+/* ---------- Футер ---------- */
+.site-footer {
+  background-color: var(--color-surface);
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+/* ---------- Заголовки ---------- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-primary);
+  margin-bottom: 10px;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/* ---------- Кнопки ---------- */
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-accent-main);
+  color: var(--color-bg);
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: var(--color-accent-secondary);
+}
+
+/* ---------- Изображения ---------- */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Списки ---------- */
+ul {
+  list-style: none;
+}

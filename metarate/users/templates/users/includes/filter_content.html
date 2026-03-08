@@ -1,0 +1,36 @@
+
+{% load static %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'users/css/filter_content.css' %}">
+{% endblock %}
+
+<section class="filter-section">
+    <form method="get" class="filter-form">
+        <input type="hidden" name="tab" value="{{ tab }}">
+        <!-- Фильтр по типу контента -->
+        <label for="type_content" class="filter-label">Тип контента:</label>
+        <select name="type_content" id="type_content" class="filter-select">
+            <option value="">Весь контент</option>
+            <option value="movie" {% if type_content == 'movie' %}selected{% endif %}>Фильмы</option>
+            <option value="series" {% if type_content == 'series' %}selected{% endif %}>Сериалы</option>
+            <option value="computergame" {% if type_content == 'computergame' %}selected{% endif %}>Игры</option>
+            <option value="book" {% if type_content == 'book' %}selected{% endif %}>Книги</option>
+        </select>
+
+        <!-- Сортировка -->
+        <label for="sort" class="filter-label">Сортировать:</label>
+        <select name="sort" id="sort" class="filter-select">
+            {% if tab == 'reviews' %}
+                <option value="new_rev" {% if sort == 'new_rev' %}selected{% endif %}>Сначала новые</option>
+                <option value="old_rev" {% if sort == 'old_rev' %}selected{% endif %}>Сначала старые</option>
+            {% else %}
+                <option value="new" {% if sort == 'new' %}selected{% endif %}>Сначала новые</option>
+                <option value="old" {% if sort == 'old' %}selected{% endif %}>Сначала старые</option>
+            {% endif %}
+            <option value="rating" {% if sort == 'rating' %}selected{% endif %}>По оценке</option>
+        </select>
+
+        <button type="submit" class="filter-button">Применить</button>
+    </form>
+</section>

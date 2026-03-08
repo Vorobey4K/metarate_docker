@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'catalog/css/content_page.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="content-page-title">{{ title }}</h1>
+<!-- Фильтры и сортировка -->
+<section class="content-filters">
+    <form method="get" class="filters-form">
+        <label for="sort" class="filters-label">Сортировать:</label>
+        <select name="sort" id="sort" class="filters-select">
+            <option value="new" {% if current_sort == 'new' %}selected{% endif %}>Сначала новые</option>
+            <option value="old" {% if current_sort == 'old' %}selected{% endif %}>Сначала старые</option>
+            <option value="rating" {% if current_sort == 'rating' %}selected{% endif %}>По оценке</option>
+        </select>
+
+        <button type="submit" class="filters-button">Применить</button>
+    </form>
+</section>
+
+<!-- Список контента -->
+<section class="content-list">
+    {% include 'catalog/includes/list_content.html' %}
+</section>
+
+{% endblock %}
+
+{% block pagination %}
+{% if page_obj.has_other_pages %}
+<nav class="content-pagination">
+    {% if page_obj.has_previous %}
+        <a href="?page={{ page_obj.previous_page_number }}{% if current_sort %}&sort={{ current_sort }}{% endif %}" class="pagination-link">Назад</a>
+    {% endif %}
+
+    <span class="pagination-info">Страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}</span>
+
+    {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}{% if current_sort %}&sort={{ current_sort }}{% endif %}" class="pagination-link">Вперед</a>
+    {% endif %}
+</nav>
+{% endif %}
+{% endblock %}

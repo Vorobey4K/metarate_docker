@@ -1,0 +1,28 @@
+
+{% load static %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'users/css/list_review.css' %}">
+{% endblock %}
+<section class="profile-reviews">
+    {% for review in items %}
+        <article class="review-card {{ review.calculate_type }}">
+            <!-- Название контента -->
+            <h2 class="review-media-title">
+                <a href="{{ review.mediaitem.get_absolute_url }}">{{ review.mediaitem.title }}</a>
+            </h2>
+
+            <!-- Заголовок рецензии -->
+            <h3 class="review-title">{{ review.title }}</h3>
+
+            <!-- Текст рецензии -->
+            <p class="review-text">{{ review.text|linebreaksbr}}</p>
+
+            <!-- Оценка -->
+            <div class="review-rating">★ {{ review.rating }}/10</div>
+
+        </article>
+    {% empty %}
+        <p class="no-content">Вы ещё не написали ни одной рецензии</p>
+    {% endfor %}
+</section>

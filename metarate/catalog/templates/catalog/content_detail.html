@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}{{ object.title }}{% endblock %}
+
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'catalog/css/content_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="content-detail">
+    <article class="card-detail">
+
+        <!-- Заголовок -->
+        <header class="card-detail-header">
+            <h1 class="card-detail-title">{{ object.title }} {% if object.year %}({{ object.year }}){% endif %}</h1>
+        </header>
+
+        <!-- Изображение -->
+        {% if object.poster %}
+            <div class="card-detail-image">
+                <img src="{{ object.poster.url }}" alt="{{ object.title }}" class="card-poster">
+            </div>
+        {% endif %}
+
+        <!-- Основная информация -->
+        <div class="card-detail-info">
+            {% if object.rating %}
+                <p><strong>Оценка:</strong> {{ object.rating }}/10</p>
+            {% endif %}
+
+            {% if object.year %}
+                <p><strong>Год производства:</strong> {{ object.year }}</p>
+            {% endif %}
+
+            <p><strong>Жанры:</strong>
+                {% if object.genres.all %}
+                    {% for genre in object.genres.all %}
+                        {{ genre.name }}{% if not forloop.last %}, {% endif %}
+                    {% empty %}
+                        Нет жанров
+                    {% endfor %}
+                {% endif %}
+            </p>
+
+
+            <p><strong>{{ object.creator.get_type_display }}:</strong>
+                {% if object.creator %}{{ object.creator.name }}{% else %}Не указано{% endif %}
+            </p>
+
+            {% if object.country %}
+                <p><strong>Страна:</strong> {{ object.country }}</p>
+            {% endif %}
+
+            {% if object.budget %}
+                <p><strong>Бюджет:</strong> {{ object.budget }}</p>
+            {% endif %}
+
+            {% if object.full_description %}
+                <p><strong>Описание:</strong></p>
+                <p>{{ object.full_description }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Действия -->
+        <div class="card-detail-actions">
+            <!-- Смотреть позже -->
+            <form method="post" action="{% url 'interactions:planned' %}" class="action-form">
+                {% csrf_token %}
+                <input type="hidden" name="media_id" value="{{ object.id }}">
+                <input type="hidden" name="next" value="{{ request.path }}">
+                <button type="submit" class="action-button">
+                    {% if media_status and media_status.is_planned %}
+                        <i class="fa-solid fa-bookmark"></i> {{ planned }}
+                    {% else %}
+                        <i class="fa-regular fa-bookmark"></i> {{ planned }}
+                    {% endif %}
+                </button>
+            </form>
+
+            <!-- Завершено -->
+            <form method="post" action="{% url 'interactions:completed' %}" class="action-form">
+                {% csrf_token %}
+                <input type="hidden" name="media_id" value="{{ object.id }}">
+                <input type="hidden" name="next" value="{{ request.path }}">
+                <button type="submit" class="action-button">
+                    {% if media_status and media_status.is_completed %}
+                        <i class="fa-solid fa-check"></i> {{ completed }}
+                    {% else %}
+                        <i class="fa-regular fa-eye"></i> {{ completed }}
+                    {% endif %}
+                </button>
+            </form>
+
+            <!-- Написать рецензию -->
+            <a href="{% url 'interactions:review_create' object.slug %}" class="action-link">✍️ Написать рецензию</a>
+        </div>
+
+        <!-- Ссылка назад -->
+        <div class="card-detail-back">
+            <a href="{% url 'movie_list' %}">← Вернуться к списку</a>
+        </div>
+
+    </article>
+</section>
+
+{% endblock %}

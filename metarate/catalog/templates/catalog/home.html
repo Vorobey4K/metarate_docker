@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Главная{% endblock %}
+
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'catalog/css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="home-intro">
+    <h1 class="home-title">Metarate</h1>
+    <p class="home-subtitle">
+        Личный трекер оценок и рецензий на фильмы, игры, сериалы и книги.
+    </p>
+</section>
+
+
+<section class="home-actions">
+    <h2 class="section-title">Выбери категорию</h2>
+
+    <div class="action-links">
+        <a href="{% url 'movie_list' %}" class="action-link">Фильмы</a>
+        <a href="{% url 'game_list' %}" class="action-link">Игры</a>
+        <a href="{% url 'series_list' %}" class="action-link">Сериалы</a>
+        <a href="{% url 'book_list' %}" class="action-link">Книги</a>
+    </div>
+</section>
+
+
+<section class="home-about">
+    <h2 class="section-title">Что можно делать на Metarate</h2>
+
+    <ul class="features-list">
+        <li>Просматривать отдельные каталоги фильмов, игр, сериалов и книг</li>
+        <li>Добавлять контент в личные списки: завершённое, рецензии и закладки</li>
+        <li>Фильтровать личный контент по типам и сортировать по дате и рейтингу</li>
+        <li>Ставить оценки и писать собственные рецензии</li>
+        <li>Управлять своим профилем и персональными данными</li>
+    </ul>
+</section>
+
+
+<section class="home-roadmap">
+    <h2 class="section-title">В планах</h2>
+
+    <ul class="roadmap-list">
+        <li>Публичные профили пользователей с их коллекциями и рецензиями</li>
+        <li>Добавление нового контента пользователем в систему</li>
+        <li>Система тегов для быстрого поиска и организации контента</li>
+    </ul>
+</section>
+
+{% endblock %}

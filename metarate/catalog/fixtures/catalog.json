@@ -1,0 +1,6672 @@
+[
+{
+  "model": "catalog.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Комедия",
+    "content_type": "movie",
+    "slug": "komediia"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Драма",
+    "content_type": "movie",
+    "slug": "drama"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Боевик",
+    "content_type": "movie",
+    "slug": "boevik"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 4,
+  "fields": {
+    "name": "Фэнтези",
+    "content_type": "movie",
+    "slug": "fentezi"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Романтика",
+    "content_type": "movie",
+    "slug": "romantika"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Триллер",
+    "content_type": "movie",
+    "slug": "triller"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 8,
+  "fields": {
+    "name": "Приключения",
+    "content_type": "movie",
+    "slug": "prikliucheniia"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 9,
+  "fields": {
+    "name": "Научная фантастика",
+    "content_type": "movie",
+    "slug": "nauchnaia-fantastika"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 10,
+  "fields": {
+    "name": "Мистика",
+    "content_type": "movie",
+    "slug": "mistika"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 11,
+  "fields": {
+    "name": "Анимация",
+    "content_type": "movie",
+    "slug": "animatsiia"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 12,
+  "fields": {
+    "name": "Криминал",
+    "content_type": "movie",
+    "slug": "kriminal"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 13,
+  "fields": {
+    "name": "Документальный",
+    "content_type": "movie",
+    "slug": "dokumentalnyi"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 14,
+  "fields": {
+    "name": "Исторический",
+    "content_type": "movie",
+    "slug": "istoricheskii"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 15,
+  "fields": {
+    "name": "Семейный",
+    "content_type": "movie",
+    "slug": "semeinyi"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 16,
+  "fields": {
+    "name": "Мюзикл",
+    "content_type": "movie",
+    "slug": "miuzikl"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 17,
+  "fields": {
+    "name": "Военный",
+    "content_type": "movie",
+    "slug": "voennyi"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 18,
+  "fields": {
+    "name": "Биография",
+    "content_type": "movie",
+    "slug": "biografiia"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 19,
+  "fields": {
+    "name": "Спорт",
+    "content_type": "movie",
+    "slug": "sport"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 20,
+  "fields": {
+    "name": "Психологический",
+    "content_type": "movie",
+    "slug": "psikhologicheskii"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 21,
+  "fields": {
+    "name": "Экшен",
+    "content_type": "movie",
+    "slug": "ekshen"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 22,
+  "fields": {
+    "name": "RPG",
+    "content_type": "game",
+    "slug": "rpg"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 23,
+  "fields": {
+    "name": "Симулятор",
+    "content_type": "game",
+    "slug": "simuliator"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 24,
+  "fields": {
+    "name": "Стратегия",
+    "content_type": "game",
+    "slug": "strategiia"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 25,
+  "fields": {
+    "name": "Головоломка",
+    "content_type": "game",
+    "slug": "golovolomka"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 26,
+  "fields": {
+    "name": "Шутер",
+    "content_type": "game",
+    "slug": "shuter"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 27,
+  "fields": {
+    "name": "Файтинг",
+    "content_type": "game",
+    "slug": "faiting"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 29,
+  "fields": {
+    "name": "Гонки",
+    "content_type": "game",
+    "slug": "gonki"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 30,
+  "fields": {
+    "name": "Выживание",
+    "content_type": "game",
+    "slug": "vyzhivanie"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 31,
+  "fields": {
+    "name": "Хоррор",
+    "content_type": "game",
+    "slug": "khorror"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 32,
+  "fields": {
+    "name": "ММОРПГ",
+    "content_type": "game",
+    "slug": "mmorpg"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 33,
+  "fields": {
+    "name": "Песочница",
+    "content_type": "game",
+    "slug": "pesochnitsa"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 34,
+  "fields": {
+    "name": "Квест",
+    "content_type": "game",
+    "slug": "kvest"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 35,
+  "fields": {
+    "name": "Роман",
+    "content_type": "book",
+    "slug": "roman"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 36,
+  "fields": {
+    "name": "Повесть",
+    "content_type": "book",
+    "slug": "povest"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 37,
+  "fields": {
+    "name": "Рассказ",
+    "content_type": "book",
+    "slug": "rasskaz"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 38,
+  "fields": {
+    "name": "Поэзия",
+    "content_type": "book",
+    "slug": "poeziia"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 39,
+  "fields": {
+    "name": "Детектив",
+    "content_type": "book",
+    "slug": "detektiv"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 40,
+  "fields": {
+    "name": "Фантастика",
+    "content_type": "book",
+    "slug": "fantastika"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 41,
+  "fields": {
+    "name": "Антиутопия",
+    "content_type": "book",
+    "slug": "antiutopiia"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 42,
+  "fields": {
+    "name": "Утопия",
+    "content_type": "book",
+    "slug": "utopiia"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 43,
+  "fields": {
+    "name": "Сатира",
+    "content_type": "book",
+    "slug": "satira"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 1,
+  "fields": {
+    "name": "Стивен Спилберг",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 2,
+  "fields": {
+    "name": "Кристофер Нолан",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 3,
+  "fields": {
+    "name": "Мартин Скорсезе",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 4,
+  "fields": {
+    "name": "Квентин Тарантино",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 5,
+  "fields": {
+    "name": "Джеймс Кэмерон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 6,
+  "fields": {
+    "name": "Андрей Тарковский",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 7,
+  "fields": {
+    "name": "Сергей Эйзенштейн",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 8,
+  "fields": {
+    "name": "Никита Михалков",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 9,
+  "fields": {
+    "name": "Алексей Герман",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 10,
+  "fields": {
+    "name": "Тимур Бекмамбетов",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 11,
+  "fields": {
+    "name": "Федерико Феллини",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 12,
+  "fields": {
+    "name": "Ингмар Бергман",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 13,
+  "fields": {
+    "name": "Люк Бессон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 14,
+  "fields": {
+    "name": "Педро Альмодовар",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 15,
+  "fields": {
+    "name": "Мишель Гондри",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 16,
+  "fields": {
+    "name": "Акира Куросава",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 17,
+  "fields": {
+    "name": "Хаяо Миядзаки",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 18,
+  "fields": {
+    "name": "Чжан Имоу",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 19,
+  "fields": {
+    "name": "Вонг Карвай",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 20,
+  "fields": {
+    "name": "Пак Чханук",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 21,
+  "fields": {
+    "name": "Дэвид Финчер",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 22,
+  "fields": {
+    "name": "Ридли Скотт",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 23,
+  "fields": {
+    "name": "Тим Бертон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 24,
+  "fields": {
+    "name": "Питер Джексон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 25,
+  "fields": {
+    "name": "Джон Луссье",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 26,
+  "fields": {
+    "name": "Альфред Хичкок",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 27,
+  "fields": {
+    "name": "Стэнли Кубрик",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 28,
+  "fields": {
+    "name": "Орсон Уэллс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 29,
+  "fields": {
+    "name": "Фрэнсис Коппола",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 30,
+  "fields": {
+    "name": "Роман Полански",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 31,
+  "fields": {
+    "name": "Дени Вильнёв",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 32,
+  "fields": {
+    "name": "Гильермо дель Торо",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 33,
+  "fields": {
+    "name": "Братья Коэн",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 34,
+  "fields": {
+    "name": "Дамиен Шазель",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 35,
+  "fields": {
+    "name": "Барри Дженкинс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 36,
+  "fields": {
+    "name": "Кэтрин Бигелоу",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 37,
+  "fields": {
+    "name": "Андреа Арнольд",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 38,
+  "fields": {
+    "name": "София Коппола",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 39,
+  "fields": {
+    "name": "Грета Гервиг",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 40,
+  "fields": {
+    "name": "Павел Лунгин",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 41,
+  "fields": {
+    "name": "Роберт Родригес",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 42,
+  "fields": {
+    "name": "Сэм Рэйми",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 43,
+  "fields": {
+    "name": "Мэл Гибсон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 44,
+  "fields": {
+    "name": "Клинт Иствуд",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 45,
+  "fields": {
+    "name": "Терри Гиллиам",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 46,
+  "fields": {
+    "name": "Терренс Малик",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 47,
+  "fields": {
+    "name": "Даррен Аронофски",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 48,
+  "fields": {
+    "name": "Пол Томас Андерсон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 49,
+  "fields": {
+    "name": "Уэс Андерсон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 50,
+  "fields": {
+    "name": "Дэвид Линч",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 51,
+  "fields": {
+    "name": "Брайан Де Пальма",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 52,
+  "fields": {
+    "name": "Дэвид Бениофф",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 53,
+  "fields": {
+    "name": "Д.Б. Уайсс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 54,
+  "fields": {
+    "name": "Дэвид Чейз",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 55,
+  "fields": {
+    "name": "Винс Джиллиган",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 56,
+  "fields": {
+    "name": "Дэвид Саймон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 57,
+  "fields": {
+    "name": "Мэтт Даффер",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 58,
+  "fields": {
+    "name": "Росс Даффер",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 59,
+  "fields": {
+    "name": "Дженджи Коэн",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 60,
+  "fields": {
+    "name": "Фиби Уоллер-Бридж",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 61,
+  "fields": {
+    "name": "Питер Морган",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 62,
+  "fields": {
+    "name": "Шонда Раймс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 63,
+  "fields": {
+    "name": "Аарон Соркин",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 64,
+  "fields": {
+    "name": "Мэттью Вайнер",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 66,
+  "fields": {
+    "name": "Марк Фрост",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 67,
+  "fields": {
+    "name": "Стивен Моффат",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 68,
+  "fields": {
+    "name": "Марк Гэтисс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 69,
+  "fields": {
+    "name": "Ричард Кёртис",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 70,
+  "fields": {
+    "name": "Джулиан Феллоуз",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 71,
+  "fields": {
+    "name": "Майк Бартлетт",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 72,
+  "fields": {
+    "name": "Тейлор Шеридан",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 73,
+  "fields": {
+    "name": "Ноа Хоули",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 74,
+  "fields": {
+    "name": "Сэм Эсмейл",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 75,
+  "fields": {
+    "name": "Джон Логан",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 76,
+  "fields": {
+    "name": "Джейсон Риттер",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 77,
+  "fields": {
+    "name": "Райан Кондал",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 78,
+  "fields": {
+    "name": "Мигель Сапочник",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 79,
+  "fields": {
+    "name": "Рональд Мур",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 80,
+  "fields": {
+    "name": "Джей Джей",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 81,
+  "fields": {
+    "name": "Дэмон Линделоф",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 82,
+  "fields": {
+    "name": "Ларри Дэвид",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 83,
+  "fields": {
+    "name": "Майк Джудж",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 84,
+  "fields": {
+    "name": "Тина Фей",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 85,
+  "fields": {
+    "name": "Майкл Шур",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 86,
+  "fields": {
+    "name": "Грег Дэниелс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 87,
+  "fields": {
+    "name": "Исса Рэй",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 88,
+  "fields": {
+    "name": "Дональд Гловер",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 89,
+  "fields": {
+    "name": "Майкл Бэй",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 90,
+  "fields": {
+    "name": "Джордан Пиль",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 91,
+  "fields": {
+    "name": "Крейг Мейзин",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 92,
+  "fields": {
+    "name": "Хосе Падилья",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 93,
+  "fields": {
+    "name": "Кристоффер Боэ",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 94,
+  "fields": {
+    "name": "Ким Ёнхва",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 95,
+  "fields": {
+    "name": "Хван Донхёк",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 96,
+  "fields": {
+    "name": "Барак Обама",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 97,
+  "fields": {
+    "name": "Мэтт Гроунинг",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 98,
+  "fields": {
+    "name": "Сет Макфарлейн",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 99,
+  "fields": {
+    "name": "Джастин Ройланд",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 100,
+  "fields": {
+    "name": "Дэн Хармон",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 101,
+  "fields": {
+    "name": "Пендлтон Уорд",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 102,
+  "fields": {
+    "name": "Кен Бёрнс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 103,
+  "fields": {
+    "name": "Дэвид Аттенборо",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 104,
+  "fields": {
+    "name": "Морган Фриман",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 105,
+  "fields": {
+    "name": "Энтони Бурдэн",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 106,
+  "fields": {
+    "name": "Гордон Рамзи",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 107,
+  "fields": {
+    "name": "Джей Дупласс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 108,
+  "fields": {
+    "name": "Марк Дупласс",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 109,
+  "fields": {
+    "name": "Лена Уэйтем",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 110,
+  "fields": {
+    "name": "Шарлин ДеГузман",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 111,
+  "fields": {
+    "name": "Катрина Матьё",
+    "type": "director"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 112,
+  "fields": {
+    "name": "Фёдор Достоевский",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 113,
+  "fields": {
+    "name": "Лев Толстой",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 114,
+  "fields": {
+    "name": "Антон Чехов",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 115,
+  "fields": {
+    "name": "Иван Тургенев",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 116,
+  "fields": {
+    "name": "Николай Гоголь",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 117,
+  "fields": {
+    "name": "Уильям Шекспир",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 118,
+  "fields": {
+    "name": "Чарльз Диккенс",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 119,
+  "fields": {
+    "name": "Эрнест Хемингуэй",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 120,
+  "fields": {
+    "name": "Фрэнсис Фицджеральд",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 121,
+  "fields": {
+    "name": "Джек Лондон",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 122,
+  "fields": {
+    "name": "Джон Толкин",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 123,
+  "fields": {
+    "name": "Джордж Оруэлл",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 124,
+  "fields": {
+    "name": "Рэй Брэдбери",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 125,
+  "fields": {
+    "name": "Айзек Азимов",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 126,
+  "fields": {
+    "name": "Фрэнк Герберт",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 127,
+  "fields": {
+    "name": "Стивен Кинг",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 128,
+  "fields": {
+    "name": "Джоан Роулинг",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 129,
+  "fields": {
+    "name": "Джордж Мартин",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 130,
+  "fields": {
+    "name": "Дэн Браун",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 131,
+  "fields": {
+    "name": "Джеймс Паттерсон",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 132,
+  "fields": {
+    "name": "Агата Кристи",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 133,
+  "fields": {
+    "name": "Артур Конан Дойл",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 134,
+  "fields": {
+    "name": "Стиг Ларссон",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 135,
+  "fields": {
+    "name": "Джиллиан Флинн",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 136,
+  "fields": {
+    "name": "Пауло Коэльо",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 137,
+  "fields": {
+    "name": "Борис Акунин",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 138,
+  "fields": {
+    "name": "Виктор Пелевин",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 139,
+  "fields": {
+    "name": "Дмитрий Глуховский",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 140,
+  "fields": {
+    "name": "Людмила Улицкая",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 141,
+  "fields": {
+    "name": "Татьяна Толстая",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 142,
+  "fields": {
+    "name": "Харуки Мураками",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 143,
+  "fields": {
+    "name": "Курт Воннегут",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 144,
+  "fields": {
+    "name": "Маргарет Этвуд",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 145,
+  "fields": {
+    "name": "Донна Тартт",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 146,
+  "fields": {
+    "name": "Кормак Маккарти",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 147,
+  "fields": {
+    "name": "Александр Островский",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 148,
+  "fields": {
+    "name": "Александр Грибоедов",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 149,
+  "fields": {
+    "name": "Теннесси Уильямс",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 150,
+  "fields": {
+    "name": "Артур Миллер",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 151,
+  "fields": {
+    "name": "Юджин О'Нил",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 152,
+  "fields": {
+    "name": "Александр Пушкин",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 153,
+  "fields": {
+    "name": "Михаил Лермонтов",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 154,
+  "fields": {
+    "name": "Владимир Маяковский",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 155,
+  "fields": {
+    "name": "Анна Ахматова",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 156,
+  "fields": {
+    "name": "Иосиф Бродский",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 157,
+  "fields": {
+    "name": "Михаил Булгаков",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 158,
+  "fields": {
+    "name": "Александр Солженицын",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 159,
+  "fields": {
+    "name": "Владимир Набоков",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 160,
+  "fields": {
+    "name": "Марсель Пруст",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 161,
+  "fields": {
+    "name": "Франц Кафка",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 162,
+  "fields": {
+    "name": "О. Генри ",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 163,
+  "fields": {
+    "name": "Эдгар По",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 164,
+  "fields": {
+    "name": "Ги де Мопассан",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 165,
+  "fields": {
+    "name": "Александр Куприн",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 166,
+  "fields": {
+    "name": "Иван Бунин",
+    "type": "author"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 167,
+  "fields": {
+    "name": "Valve",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 168,
+  "fields": {
+    "name": "CD Projekt Red",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 169,
+  "fields": {
+    "name": "Blizzard Entertainment",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 170,
+  "fields": {
+    "name": "Rockstar Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 171,
+  "fields": {
+    "name": "Bethesda Game Studios",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 172,
+  "fields": {
+    "name": "Ubisoft",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 173,
+  "fields": {
+    "name": "Electronic Arts",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 174,
+  "fields": {
+    "name": "Activision",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 175,
+  "fields": {
+    "name": "Epic Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 176,
+  "fields": {
+    "name": "Riot Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 177,
+  "fields": {
+    "name": "Square Enix",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 178,
+  "fields": {
+    "name": "Capcom",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 179,
+  "fields": {
+    "name": "Bandai Namco",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 180,
+  "fields": {
+    "name": "FromSoftware",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 181,
+  "fields": {
+    "name": "Larian Studios",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 182,
+  "fields": {
+    "name": "Paradox Interactive",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 183,
+  "fields": {
+    "name": "Creative Assembly",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 184,
+  "fields": {
+    "name": "2K Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 185,
+  "fields": {
+    "name": "Gearbox Software",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 186,
+  "fields": {
+    "name": "Bungie",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 187,
+  "fields": {
+    "name": "Obsidian Entertainment",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 188,
+  "fields": {
+    "name": "BioWare",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 189,
+  "fields": {
+    "name": "Respawn Entertainment",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 190,
+  "fields": {
+    "name": "id Software",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 191,
+  "fields": {
+    "name": "IO Interactive",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 192,
+  "fields": {
+    "name": "Remedy Entertainment",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 193,
+  "fields": {
+    "name": "Techland",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 194,
+  "fields": {
+    "name": "Crytek",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 195,
+  "fields": {
+    "name": "Bohemia Interactive",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 196,
+  "fields": {
+    "name": "Focus Entertainment",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 197,
+  "fields": {
+    "name": "Telltale Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 198,
+  "fields": {
+    "name": "Supergiant Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 199,
+  "fields": {
+    "name": "Re-Logic",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 200,
+  "fields": {
+    "name": "Klei Entertainment",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 201,
+  "fields": {
+    "name": "Mojang Studios",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 202,
+  "fields": {
+    "name": "Hello Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 203,
+  "fields": {
+    "name": "Digital Extremes",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 204,
+  "fields": {
+    "name": "Facepunch Studios",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 205,
+  "fields": {
+    "name": "Piranha Bytes",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 206,
+  "fields": {
+    "name": "Ninja Theory",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 207,
+  "fields": {
+    "name": "Relic Entertainment",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 208,
+  "fields": {
+    "name": "Firaxis Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 209,
+  "fields": {
+    "name": "Playground Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 210,
+  "fields": {
+    "name": "Warhorse Studios",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 211,
+  "fields": {
+    "name": "Coffee Stain Studios",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 212,
+  "fields": {
+    "name": "Owlcat Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 213,
+  "fields": {
+    "name": "Saber Interactive",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 214,
+  "fields": {
+    "name": "Pearl Abyss",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 215,
+  "fields": {
+    "name": "Grinding Gear Games",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.creator",
+  "pk": 216,
+  "fields": {
+    "name": "Wargaming",
+    "type": "studio"
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 1,
+  "fields": {
+    "title": "Начало",
+    "year": 2010,
+    "description": "Фантастический триллер о проникновении в подсознание.",
+    "full_description": "Дом Кобб — талантливый вор, способный похищать секреты из глубин человеческого подсознания во время сна. Его редкие способности сделали его ценным игроком в мире промышленного шпионажа, но лишили нормальной жизни. Последний шанс вернуть себе всё — совершить невозможное: не украсть идею, а внедрить её.",
+    "rating": "8.8",
+    "poster": "catalog/movie/nachalo_2SikMjk.jpg",
+    "created_at": "2026-01-01",
+    "creator": 2,
+    "country": "США",
+    "slug": "nachalo",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      7,
+      9,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 2,
+  "fields": {
+    "title": "Тёмный рыцарь",
+    "year": 2008,
+    "description": "Мрачный супергеройский триллер о противостоянии Бэтмена и Джокера.",
+    "full_description": "Бэтмен, комиссар Гордон и прокурор Харви Дент объединяют усилия, чтобы очистить Готэм от преступности. Но появление Джокера превращает город в арену хаоса, где каждый выбор имеет последствия.",
+    "rating": "9.0",
+    "poster": "catalog/movie/temnyy-rytsar.jfif",
+    "created_at": "2026-01-01",
+    "creator": 2,
+    "country": "США",
+    "slug": "temnyy-rytsar",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      3,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 3,
+  "fields": {
+    "title": "Криминальное чтиво",
+    "year": 1994,
+    "description": "Культовый фильм с переплетением криминальных историй.",
+    "full_description": "Несколько историй из жизни преступного Лос-Анджелеса переплетаются в нелинейном повествовании, наполненном чёрным юмором, философскими диалогами и неожиданными поворотами.",
+    "rating": "8.9",
+    "poster": "catalog/movie/kriminalnoe-chtivo.jpg",
+    "created_at": "2026-01-01",
+    "creator": 4,
+    "country": "США",
+    "slug": "kriminalnoe-chtivo",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 4,
+  "fields": {
+    "title": "Бойцовский клуб",
+    "year": 1999,
+    "description": "Психологический фильм о кризисе личности.",
+    "full_description": "Офисный работник, страдающий бессонницей, знакомится с харизматичным Тайлером Дёрденом. Вместе они создают подпольный бойцовский клуб, который постепенно превращается в нечто гораздо более опасное.",
+    "rating": null,
+    "poster": "catalog/movie/boytsovskiy-klub.jpg",
+    "created_at": "2026-01-01",
+    "creator": 21,
+    "country": "США",
+    "slug": "boytsovskiy-klub",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 5,
+  "fields": {
+    "title": "Титаник",
+    "year": 1997,
+    "description": "История любви на фоне трагедии.",
+    "full_description": "Роман между бедным художником и девушкой из высшего общества разворачивается на борту легендарного лайнера, обречённого столкнуться с айсбергом.",
+    "rating": null,
+    "poster": "catalog/movie/titanik.jpg",
+    "created_at": "2026-01-01",
+    "creator": 5,
+    "country": "США",
+    "slug": "titanik",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 7,
+  "fields": {
+    "title": "Форрест Гамп",
+    "year": 1994,
+    "description": "История простого человека на фоне истории США.",
+    "full_description": "Форрест Гамп — человек с низким IQ, но добрым сердцем, который невольно становится участником ключевых событий американской истории, оставаясь верным своей любви и жизненным принципам.",
+    "rating": "8.8",
+    "poster": "catalog/movie/forrest-gamp.jfif",
+    "created_at": "2026-01-01",
+    "creator": 44,
+    "country": "США",
+    "slug": "forrest-gamp",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 8,
+  "fields": {
+    "title": "Властелин колец: Братство кольца",
+    "year": 2001,
+    "description": "Начало великого путешествия Средиземья.",
+    "full_description": "Юный хоббит Фродо получает Кольцо Всевластия и отправляется в опасное путешествие, чтобы уничтожить его и спасти Средиземье от тьмы Саурона.",
+    "rating": "8.8",
+    "poster": "catalog/movie/vlastelin-kolec-bratstvo-kolca.jpg",
+    "created_at": "2026-01-01",
+    "creator": 24,
+    "country": "Новая Зеландия",
+    "slug": "vlastelin-kolec-bratstvo-kolca",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      4,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 9,
+  "fields": {
+    "title": "Список Шиндлера",
+    "year": 1993,
+    "description": "История человечности в условиях Холокоста.",
+    "full_description": "Немецкий промышленник Оскар Шиндлер спасает более тысячи еврейских жизней, используя своё положение и деньги во время Второй мировой войны.",
+    "rating": "9.0",
+    "poster": "catalog/movie/spisok-shindlera.jpg",
+    "created_at": "2026-01-01",
+    "creator": 1,
+    "country": "США",
+    "slug": "spisok-shindlera",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      14,
+      17
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 10,
+  "fields": {
+    "title": "Интерстеллар",
+    "year": 2014,
+    "description": "Космическая одиссея о времени и любви.",
+    "full_description": "Группа исследователей отправляется через червоточину в поисках нового дома для человечества, сталкиваясь с релятивистскими эффектами времени и тяжёлыми моральными выборами.",
+    "rating": "8.6",
+    "poster": "catalog/movie/interstellar_fJQaeZD.jpg",
+    "created_at": "2026-01-01",
+    "creator": 2,
+    "country": "США",
+    "slug": "interstellar",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 11,
+  "fields": {
+    "title": "Парк Юрского периода",
+    "year": 1993,
+    "description": "Учёные оживляют динозавров на острове.",
+    "full_description": "Учёные создают генетически воскрешённых динозавров для тематического парка. Всё выходит из-под контроля, когда хищники начинают убивать посетителей...",
+    "rating": "8.1",
+    "poster": "catalog/movie/park-jurskogo-perioda.jfif",
+    "created_at": "2024-01-01",
+    "creator": 1,
+    "country": "США",
+    "slug": "park-jurskogo-perioda",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      3,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 12,
+  "fields": {
+    "title": "Искупление",
+    "year": 2007,
+    "description": "История любви и последствий одной ошибки.",
+    "full_description": "Юная писательница случайно разрушает жизнь своей сестры и её возлюбленного. История разворачивается на фоне Второй мировой войны...",
+    "rating": "7.8",
+    "poster": "catalog/movie/iskuplenie.jpg",
+    "created_at": "2024-01-01",
+    "creator": 3,
+    "country": "Великобритания",
+    "slug": "iskuplenie",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      14
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 13,
+  "fields": {
+    "title": "Гран Торино",
+    "year": 2008,
+    "description": "Ветеран войны защищает свой район и друзей.",
+    "full_description": "Ветеран Корейской войны сталкивается с преступностью в своём районе и находит неожиданных друзей среди соседей...",
+    "rating": "8.1",
+    "poster": "catalog/movie/gran-torino.jpg",
+    "created_at": "2024-01-01",
+    "creator": 44,
+    "country": "США",
+    "slug": "gran-torino",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      3,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 14,
+  "fields": {
+    "title": "Авиатор",
+    "year": 2004,
+    "description": "Жизнь и достижения Говарда Хьюза.",
+    "full_description": "Биографическая история знаменитого предпринимателя и авиационного пионера Говарда Хьюза, его победы и личные проблемы...",
+    "rating": "7.5",
+    "poster": "catalog/movie/aviator.jpg",
+    "created_at": "2024-01-01",
+    "creator": 5,
+    "country": "США",
+    "slug": "aviator",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      14,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 15,
+  "fields": {
+    "title": "Отступники",
+    "year": 2006,
+    "description": "Двойная игра в полиции и мафии.",
+    "full_description": "Полицейский внедряется в мафию, а мафиози — в полицию. Оба пытаются вычислить друг друга в опасной игре...",
+    "rating": "8.5",
+    "poster": "catalog/movie/otstupniki.jpg",
+    "created_at": "2024-01-01",
+    "creator": 3,
+    "country": "США",
+    "slug": "otstupniki",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 16,
+  "fields": {
+    "title": "Семь",
+    "year": 1995,
+    "description": "Детективы расследуют серию убийств по семи смертным грехам.",
+    "full_description": "Два детектива охотятся на серийного убийцу, который выбирает свои жертвы по мотивам семи смертных грехов...",
+    "rating": "8.6",
+    "poster": "catalog/movie/sem.jpg",
+    "created_at": "2024-01-01",
+    "creator": 21,
+    "country": "США",
+    "slug": "sem",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 17,
+  "fields": {
+    "title": "Мементо",
+    "year": 2000,
+    "description": "Человек с потерей памяти ищет убийцу своей жены.",
+    "full_description": "Главный герой страдает краткосрочной потерей памяти и использует заметки и татуировки, чтобы найти убийцу своей жены...",
+    "rating": "8.4",
+    "poster": "catalog/movie/memento.jpg",
+    "created_at": "2024-01-01",
+    "creator": 2,
+    "country": "США",
+    "slug": "memento",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 19,
+  "fields": {
+    "title": "Славные парни",
+    "year": 1990,
+    "description": "Подростки сталкиваются с преступным миром Чикаго.",
+    "full_description": "Группа друзей в Чикаго вовлечена в жизнь преступного мира, показывая дружбу, предательство и борьбу за выживание...",
+    "rating": "8.7",
+    "poster": "catalog/movie/slavnye-parni.jpg",
+    "created_at": "2024-01-01",
+    "creator": 3,
+    "country": "США",
+    "slug": "slavnye-parni",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 20,
+  "fields": {
+    "title": "Город Бога",
+    "year": 2002,
+    "description": "История жизни в фавелах Рио-де-Жанейро.",
+    "full_description": "Молодые люди взрослеют в бедных фавелах, сталкиваясь с насилием, наркотиками и попытками выжить...",
+    "rating": "8.6",
+    "poster": "catalog/movie/gorod-boga.jfif",
+    "created_at": "2024-01-01",
+    "creator": 3,
+    "country": "Бразилия",
+    "slug": "gorod-boga",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      8,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 21,
+  "fields": {
+    "title": "Ла-Ла Ленд",
+    "year": 2016,
+    "description": "История любви музыканта и актрисы в Лос-Анджелесе.",
+    "full_description": "Молодая актриса и джазовый музыкант встречаются, влюбляются и сталкиваются с выбором между карьерой и отношениями...",
+    "rating": "8.0",
+    "poster": "catalog/movie/la-la-land.jpg",
+    "created_at": "2024-01-01",
+    "creator": 35,
+    "country": "США",
+    "slug": "la-la-land",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      16
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 22,
+  "fields": {
+    "title": "Гравитация",
+    "year": 2013,
+    "description": "Астронавты борются за выживание после катастрофы в космосе.",
+    "full_description": "Двое астронавтов остаются одни в открытом космосе после разрушения их шаттла и пытаются выжить, возвращаясь на Землю...",
+    "rating": "7.7",
+    "poster": "catalog/movie/gravitaciya.jpg",
+    "created_at": "2024-01-01",
+    "creator": 21,
+    "country": "США",
+    "slug": "gravitaciya",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 23,
+  "fields": {
+    "title": "Шоу Трумана",
+    "year": 1998,
+    "description": "Человек живёт в мире телешоу, не подозревая об этом.",
+    "full_description": "Главный герой с рождения находится в телешоу, где его жизнь полностью контролируется продюсерами. Он начинает подозревать правду и искать свободу...",
+    "rating": "8.1",
+    "poster": "catalog/movie/shou-trumana.jfif",
+    "created_at": "2024-01-01",
+    "creator": 22,
+    "country": "США",
+    "slug": "shou-trumana",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 24,
+  "fields": {
+    "title": "Вечное сияние чистого разума",
+    "year": 2004,
+    "description": "Любовная пара стирает воспоминания друг о друге.",
+    "full_description": "После болезненного расставания пара решает стереть воспоминания друг о друге, но процесс приводит к неожиданным последствиям...",
+    "rating": "8.3",
+    "poster": "catalog/movie/vechnoe-siyanie.jpg",
+    "created_at": "2024-01-01",
+    "creator": 50,
+    "country": "США",
+    "slug": "vechnoe-siyanie",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 25,
+  "fields": {
+    "title": "Остров проклятых",
+    "year": 2010,
+    "description": "Детектив расследует исчезновение пациентки психиатрической больницы.",
+    "full_description": "Детектив приезжает на изолированный остров для расследования исчезновения пациентки психиатрической больницы, но сталкивается с загадками и собственным прошлым...",
+    "rating": "8.2",
+    "poster": "catalog/movie/ostrov-proklyatyh.jpg",
+    "created_at": "2024-01-01",
+    "creator": 21,
+    "country": "США",
+    "slug": "ostrov-proklyatyh",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 26,
+  "fields": {
+    "title": "Социальная сеть",
+    "year": 2010,
+    "description": "История создания Facebook и конфликтов основателей.",
+    "full_description": "История взлёта Facebook и сложных отношений его создателей, включая юридические споры и личные конфликты...",
+    "rating": "7.7",
+    "poster": "catalog/movie/socialnaya-set.jfif",
+    "created_at": "2024-01-01",
+    "creator": 53,
+    "country": "США",
+    "slug": "socialnaya-set",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 27,
+  "fields": {
+    "title": "Игра на понижение",
+    "year": 2015,
+    "description": "Финансовый кризис 2008 года глазами трейдеров.",
+    "full_description": "Группа трейдеров прогнозирует ипотечный кризис и борется с системой, чтобы выиграть на биржевых ставках, раскрывая коррупцию и жадность...",
+    "rating": "7.8",
+    "poster": "catalog/movie/igra-na-ponizhenie.jpg",
+    "created_at": "2024-01-01",
+    "creator": 5,
+    "country": "США",
+    "slug": "igra-na-ponizhenie",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      18,
+      21
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 28,
+  "fields": {
+    "title": "Бёрдмэн",
+    "year": 2014,
+    "description": "Актёр пытается вернуться на сцену после прошлых успехов.",
+    "full_description": "Известный актёр, когда-то игравший супергероя, пытается восстановить свою карьеру на Бродвее, сталкиваясь с личными и профессиональными трудностями...",
+    "rating": "7.8",
+    "poster": "catalog/movie/birdman.jpg",
+    "created_at": "2024-01-01",
+    "creator": 35,
+    "country": "США",
+    "slug": "birdman",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      16
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 30,
+  "fields": {
+    "title": "Молчание ягнят",
+    "year": 1991,
+    "description": "Молодая агент ФБР ищет серийного убийцу с помощью заключённого психолога.",
+    "full_description": "Агент ФБР Кларисса Старлинг пытается поймать серийного убийцу Ганнибала Лектера, используя его психологические знания для расследования преступлений...",
+    "rating": "8.6",
+    "poster": "catalog/movie/molchanie-yagnyat.jpg",
+    "created_at": "2024-01-01",
+    "creator": 21,
+    "country": "США",
+    "slug": "molchanie-yagnyat",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 31,
+  "fields": {
+    "title": "Великий Гэтсби",
+    "year": 2013,
+    "description": "История любви и богатства в 1920-х годах.",
+    "full_description": "Молодой писатель приезжает в Нью-Йорк и оказывается втянутым в жизнь своего таинственного соседа, Джея Гэтсби, полную вечеринок и трагедий...",
+    "rating": "7.2",
+    "poster": "catalog/movie/velikiy-gatsby.jpg",
+    "created_at": "2024-01-01",
+    "creator": 70,
+    "country": "США",
+    "slug": "velikiy-gatsby",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      14
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 32,
+  "fields": {
+    "title": "Сияние",
+    "year": 1980,
+    "description": "Семья осенью приезжает в уединённый отель, где отец сходит с ума.",
+    "full_description": "Джек Торренс становится смотрителем заброшенного отеля, где постепенно погружается в безумие, а его семья сталкивается с сверхъестественными силами...",
+    "rating": "8.4",
+    "poster": "catalog/movie/siyanie.jpg",
+    "created_at": "2024-01-01",
+    "creator": 26,
+    "country": "США",
+    "slug": "siyanie",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      31
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 33,
+  "fields": {
+    "title": "Назад в будущее",
+    "year": 1985,
+    "description": "Подросток случайно отправляется в прошлое на машине времени.",
+    "full_description": "Марти МакФлай путешествует во времени на изобретённой Доктором Браун машине и должен вернуть события к норме, чтобы не изменить будущее...",
+    "rating": "8.5",
+    "poster": "catalog/movie/nazad-v-buduschee.jfif",
+    "created_at": "2024-01-01",
+    "creator": 24,
+    "country": "США",
+    "slug": "nazad-v-buduschee",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      3,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 34,
+  "fields": {
+    "title": "Гладиатор",
+    "year": 2000,
+    "description": "Римский генерал становится гладиатором, чтобы отомстить императору.",
+    "full_description": "Максимус Децимус Меридий, генерал Римской империи, предан императором и превращён в гладиатора. Он сражается за справедливость и месть...",
+    "rating": "8.5",
+    "poster": "catalog/movie/gladiator.jfif",
+    "created_at": "2024-01-01",
+    "creator": 29,
+    "country": "США",
+    "slug": "gladiator",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      3,
+      14
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 35,
+  "fields": {
+    "title": "Пианист",
+    "year": 2002,
+    "description": "Еврейский пианист выживает в оккупированной Варшаве.",
+    "full_description": "Варшавский пианист Владыслав Шпильман пытается выжить во время Второй мировой войны, сталкиваясь с ужасами оккупации и потерей семьи...",
+    "rating": "8.5",
+    "poster": "catalog/movie/pianist.jpg",
+    "created_at": "2024-01-01",
+    "creator": 29,
+    "country": "Польша",
+    "slug": "pianist",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      14,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 36,
+  "fields": {
+    "title": "Американская история X",
+    "year": 1998,
+    "description": "Бывший неонацист пытается спасти брата от того же пути.",
+    "full_description": "Деррик Виньярд выходит из тюрьмы и пытается предотвратить, чтобы его младший брат пошёл по тем же разрушительным путям, которые он сам прошёл...",
+    "rating": "8.5",
+    "poster": "catalog/movie/amerikanskaya-istoriya-x.jpg",
+    "created_at": "2024-01-01",
+    "creator": 21,
+    "country": "США",
+    "slug": "amerikanskaya-istoriya-x",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 37,
+  "fields": {
+    "title": "Малышка на миллион",
+    "year": 2004,
+    "description": "Тренер помогает женщине стать чемпионкой по боксу.",
+    "full_description": "Боксерша пытается стать чемпионкой мира, а её строгий тренер помогает ей справиться с трудностями как в спорте, так и в личной жизни...",
+    "rating": "8.1",
+    "poster": "catalog/movie/malyshka-na-million.jpg",
+    "created_at": "2024-01-01",
+    "creator": 35,
+    "country": "США",
+    "slug": "malyshka-na-million",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      3,
+      6,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 38,
+  "fields": {
+    "title": "Отель Гранд Будапешт",
+    "year": 2014,
+    "description": "Приключения консьержа и его ученика в роскошном отеле.",
+    "full_description": "Консьерж знаменитого европейского отеля вместе со своим учеником оказывается втянут в кражу картины и борьбу за наследство, сталкиваясь с юмором и опасностью...",
+    "rating": "8.1",
+    "poster": "catalog/movie/grand-budapest-hotel.jpg",
+    "created_at": "2024-01-01",
+    "creator": 49,
+    "country": "Великобритания",
+    "slug": "grand-budapest-hotel",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      3,
+      6,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 40,
+  "fields": {
+    "title": "Терминатор 2: Судный день",
+    "year": 1991,
+    "description": "Киборг из будущего защищает мальчика, ключ к спасению человечества.",
+    "full_description": "Киборг и Сара Коннор пытаются предотвратить апокалипсис, сражаясь с новым, усовершенствованным терминатором, посланным из будущего...",
+    "rating": "8.5",
+    "poster": "catalog/movie/terminator-2.jpg",
+    "created_at": "2024-01-01",
+    "creator": 5,
+    "country": "США",
+    "slug": "terminator-2",
+    "content_type": "movie",
+    "page_author": null,
+    "genres": [
+      3,
+      9,
+      21
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 41,
+  "fields": {
+    "title": "Во все тяжкие",
+    "year": 2008,
+    "description": "Учитель химии превращается в наркобарона.",
+    "full_description": "Уолтер Уайт, скучающий учитель химии, узнает, что у него рак легких, и решает заняться производством метамфетамина, погружаясь в криминальный мир.",
+    "rating": "9.5",
+    "poster": "catalog/series/vo-vse-tyazhkie.jfif",
+    "created_at": "2026-01-17",
+    "creator": 54,
+    "country": "США",
+    "slug": "vo-vse-tyazhkie",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 42,
+  "fields": {
+    "title": "Игра престолов",
+    "year": 2011,
+    "description": "Семьи борются за Железный трон Вестероса.",
+    "full_description": "Королевства Вестероса ведут бесконечные интриги и войны за власть. Драконы возвращаются, а магия пробуждается, изменяя баланс сил.",
+    "rating": "9.3",
+    "poster": "catalog/series/igra-prestolov.jfif",
+    "created_at": "2026-01-17",
+    "creator": 78,
+    "country": "США",
+    "slug": "igra-prestolov",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      4,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 43,
+  "fields": {
+    "title": "Очень странные дела",
+    "year": 2016,
+    "description": "Группа детей сталкивается с паранормальными явлениями.",
+    "full_description": "В маленьком городке исчезает мальчик. Его друзья и семья сталкиваются с параллельным измерением 'Обратная сторона' и секретными правительственными экспериментами.",
+    "rating": "8.9",
+    "poster": "catalog/series/ochen-strannye-dela.jpg",
+    "created_at": "2026-01-17",
+    "creator": 60,
+    "country": "США",
+    "slug": "ochen-strannye-dela",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      7,
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 44,
+  "fields": {
+    "title": "Чернобыль",
+    "year": 2019,
+    "description": "Трагедия на Чернобыльской АЭС.",
+    "full_description": "История взрыва на Чернобыльской АЭС и его последствий. Герои противостоят бюрократии и радиации, рискуя жизнями ради спасения людей.",
+    "rating": "9.4",
+    "poster": "catalog/series/chernobyl.jpg",
+    "created_at": "2026-01-17",
+    "creator": 103,
+    "country": "США",
+    "slug": "chernobyl",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      13,
+      14,
+      18
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 45,
+  "fields": {
+    "title": "Лучше звоните Солу",
+    "year": 2015,
+    "description": "Предыстория адвоката Сола Гудмана.",
+    "full_description": "Джимми Макгилл, мелкий адвокат, постепенно превращается в хитрого, но безжалостного Сола Гудмана. Сериал раскрывает путь его моральных и личных компромиссов.",
+    "rating": "8.9",
+    "poster": "catalog/series/luchshe-zvonite-solu.jpg",
+    "created_at": "2026-01-17",
+    "creator": 55,
+    "country": "США",
+    "slug": "luchshe-zvonite-solu",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 46,
+  "fields": {
+    "title": "Бесстыжие",
+    "year": 2011,
+    "description": "Семья Фрэнов живет в Чикаго.",
+    "full_description": "Фрэнк Галлагер и его дети борются с бедностью, алкоголизмом и личными проблемами, создавая хаотичную, но трогательную семейную историю.",
+    "rating": "8.7",
+    "poster": "catalog/series/besstyzhie.jpg",
+    "created_at": "2026-01-17",
+    "creator": 56,
+    "country": "США",
+    "slug": "besstyzhie",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 47,
+  "fields": {
+    "title": "Карточный домик",
+    "year": 2013,
+    "description": "Политические интриги в Вашингтоне.",
+    "full_description": "Фрэнк Андервуд, амбициозный конгрессмен, идет на все ради власти, создавая сложную паутину интриг, предательств и манипуляций.",
+    "rating": "8.8",
+    "poster": "catalog/series/kartochnyy-domik.jpg",
+    "created_at": "2026-01-17",
+    "creator": 57,
+    "country": "США",
+    "slug": "kartochnyy-domik",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      7,
+      12,
+      14
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 48,
+  "fields": {
+    "title": "Викинги",
+    "year": 2013,
+    "description": "История саги викингов.",
+    "full_description": "Рагнар Лодброк и его семья борются за славу, власть и выживание, расширяя свои земли и сталкиваясь с верой и предательством.",
+    "rating": "8.6",
+    "poster": "catalog/series/vikings.jpg",
+    "created_at": "2026-01-17",
+    "creator": 66,
+    "country": "Канада/Ирландия",
+    "slug": "vikings",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      4,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 49,
+  "fields": {
+    "title": "Доктор Хаус",
+    "year": 2004,
+    "description": "Циничный врач и его команда.",
+    "full_description": "Грегори Хаус, талантливый, но циничный диагност, решает сложные медицинские загадки, часто сталкиваясь с моральными дилеммами и собственными демонами.",
+    "rating": "8.7",
+    "poster": "catalog/series/doktor-haus.jpg",
+    "created_at": "2026-01-17",
+    "creator": 55,
+    "country": "США",
+    "slug": "doktor-haus",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      2,
+      12,
+      14
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 50,
+  "fields": {
+    "title": "Настоящий детектив",
+    "year": 2014,
+    "description": "Сложные расследования детективов.",
+    "full_description": "Два детектива расследуют серию странных и жестоких убийств, сталкиваясь с психологическими и криминальными загадками, которые выходят за рамки обычного понимания.",
+    "rating": "9.0",
+    "poster": "catalog/series/nastoyashchiy-detektiv.jpg",
+    "created_at": "2026-01-17",
+    "creator": 61,
+    "country": "США",
+    "slug": "nastoyashchiy-detektiv",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      7,
+      12,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 51,
+  "fields": {
+    "title": "Фарго",
+    "year": 2014,
+    "description": "Преступления в Миннесоте с черным юмором.",
+    "full_description": "Маленький городок становится ареной странных и жестоких преступлений. Детективы пытаются распутать сеть обмана и насилия, сталкиваясь с абсурдом и черным юмором.",
+    "rating": "8.9",
+    "poster": "catalog/series/fargo.jpg",
+    "created_at": "2026-01-17",
+    "creator": 74,
+    "country": "США",
+    "slug": "fargo",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 52,
+  "fields": {
+    "title": "Остаться в живых",
+    "year": 2004,
+    "description": "Таинственный остров и выжившие после авиакатастрофы.",
+    "full_description": "Пассажиры рейса терпят крушение на загадочном острове. Им приходится объединяться, раскрывать тайны острова и сталкиваться с собственной моралью и страхами.",
+    "rating": "8.5",
+    "poster": "catalog/series/ostatsya-v-zhivyh.jpg",
+    "created_at": "2026-01-17",
+    "creator": 57,
+    "country": "США",
+    "slug": "ostatsya-v-zhivyh",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      7,
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 53,
+  "fields": {
+    "title": "Доктор Кто",
+    "year": 2005,
+    "description": "Приключения странствующего во времени.",
+    "full_description": "Доктор путешествует во времени и пространстве, сталкиваясь с инопланетными угрозами, историческими событиями и спасая человечество, используя ум, смекалку и технологию.",
+    "rating": "8.7",
+    "poster": "catalog/series/doktor-kto.jpg",
+    "created_at": "2026-01-17",
+    "creator": 67,
+    "country": "Великобритания",
+    "slug": "doktor-kto",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      8,
+      9,
+      11
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 54,
+  "fields": {
+    "title": "Стрела",
+    "year": 2012,
+    "description": "Супергерой защищает Старлинг-сити.",
+    "full_description": "Оливер Куин возвращается после пяти лет на острове, чтобы бороться с преступностью в своем городе. Использует свои навыки, технологии и стратегию против преступного мира.",
+    "rating": "7.9",
+    "poster": "catalog/series/strela.jfif",
+    "created_at": "2026-01-17",
+    "creator": 81,
+    "country": "США",
+    "slug": "strela",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 55,
+  "fields": {
+    "title": "Сверхъестественное",
+    "year": 2005,
+    "description": "Братья охотятся на демонов и монстров.",
+    "full_description": "Сэм и Дин Винчестеры путешествуют по США, сражаясь с демонами, призраками и сверхъестественными существами, спасая людей и сталкиваясь с семейными тайнами.",
+    "rating": "8.4",
+    "poster": "catalog/series/sverhestestvennoe.jpg",
+    "created_at": "2026-01-17",
+    "creator": 58,
+    "country": "США",
+    "slug": "sverhestestvennoe",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      7,
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 57,
+  "fields": {
+    "title": "Мандалорец",
+    "year": 2019,
+    "description": "Охотник за головами во вселенной Звездных войн.",
+    "full_description": "Мандалорец бродит по отдаленным уголкам галактики, выполняя задания, сталкиваясь с опасными противниками и защищая найденного ребенка, известного как 'Дитя'.",
+    "rating": "8.8",
+    "poster": "catalog/series/mandalorets.jfif",
+    "created_at": "2026-01-17",
+    "creator": 24,
+    "country": "США",
+    "slug": "mandalorets",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 58,
+  "fields": {
+    "title": "Ведьмак",
+    "year": 2019,
+    "description": "Геральт охотится на монстров в мире магии.",
+    "full_description": "Геральт из Ривии странствует по континенту, выполняя контракты на уничтожение чудовищ, сталкиваясь с политическими интригами и магическими опасностями.",
+    "rating": "8.2",
+    "poster": "catalog/series/vedmak.jpg",
+    "created_at": "2026-01-17",
+    "creator": 32,
+    "country": "Польша",
+    "slug": "vedmak",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      4,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 59,
+  "fields": {
+    "title": "Бумажный дом",
+    "year": 2017,
+    "description": "Грабеж века и интеллектуальные игры.",
+    "full_description": "Группа преступников под руководством 'Профессора' планирует идеальное ограбление Королевского монетного двора Испании, сталкиваясь с внутренними конфликтами и полицейскими расследованиями.",
+    "rating": "8.3",
+    "poster": "catalog/series/bumazhnyy-dom.jfif",
+    "created_at": "2026-01-17",
+    "creator": 73,
+    "country": "Испания",
+    "slug": "bumazhnyy-dom",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 60,
+  "fields": {
+    "title": "Тьма",
+    "year": 2017,
+    "description": "Исчезновения детей и тайны города.",
+    "full_description": "В немецком городке исчезают дети. История переплетает поколения, тайны временных петлей и психологические драмы жителей, раскрывая скрытые семейные и городские тайны.",
+    "rating": "8.8",
+    "poster": "catalog/series/tma.jpg",
+    "created_at": "2026-01-17",
+    "creator": 60,
+    "country": "Германия",
+    "slug": "tma",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      7,
+      8,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 61,
+  "fields": {
+    "title": "Каратель",
+    "year": 2017,
+    "description": "Бывший морпех становится антигероем Нью-Йорка.",
+    "full_description": "Фрэнк Кастл, возвращаясь из войны, решает бороться с преступностью собственными методами, сталкиваясь с коррупцией, мафией и личными демонами.",
+    "rating": "8.1",
+    "poster": "catalog/series/karatel.jpg",
+    "created_at": "2026-01-17",
+    "creator": 57,
+    "country": "США",
+    "slug": "karatel",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 62,
+  "fields": {
+    "title": "Настоящая кровь",
+    "year": 2008,
+    "description": "Вампиры, люди и тайны маленького городка.",
+    "full_description": "Сериал рассказывает о мире, где вампиры открыто живут среди людей. Протагонистка сталкивается с политикой, любовью и сверхъестественными угрозами в маленьком городке Луизианы.",
+    "rating": "8.0",
+    "poster": "catalog/series/nastoyashchaya-krov.jpg",
+    "created_at": "2026-01-17",
+    "creator": 58,
+    "country": "США",
+    "slug": "nastoyashchaya-krov",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      4,
+      7,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 63,
+  "fields": {
+    "title": "Острые козырьки",
+    "year": 2013,
+    "description": "Криминальная драма в послевоенном Бирмингеме.",
+    "full_description": "Томми Шелби и его семья ведут криминальный бизнес, сталкиваясь с конкуренцией, полицией и политикой в 1920-х годах в Англии.",
+    "rating": "8.8",
+    "poster": "catalog/series/ostrye-kozyrki.jpg",
+    "created_at": "2026-01-17",
+    "creator": 34,
+    "country": "Великобритания",
+    "slug": "ostrye-kozyrki",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      2,
+      3,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 65,
+  "fields": {
+    "title": "ВандаВижн",
+    "year": 2021,
+    "description": "Магия и реальность переплетаются в жизни пары.",
+    "full_description": "Ванда Максимофф и Вижн живут в идеальном пригородном мире, но вскоре начинают понимать, что реальность не так проста. Сериал сочетает комедию, драмы и супергеройскую тематику.",
+    "rating": "8.2",
+    "poster": "catalog/series/vandavizhn.jfif",
+    "created_at": "2026-01-17",
+    "creator": 62,
+    "country": "США",
+    "slug": "vandavizhn",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      4,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 66,
+  "fields": {
+    "title": "Локи",
+    "year": 2021,
+    "description": "Приключения бога обмана во времени.",
+    "full_description": "Локи путешествует по временной линии, создавая хаос и сталкиваясь с Тайм-Корпусом. Сериал сочетает фантастику, юмор и драму супергеройского мира.",
+    "rating": "8.3",
+    "poster": "catalog/series/loki.jpg",
+    "created_at": "2026-01-17",
+    "creator": 62,
+    "country": "США",
+    "slug": "loki",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      4,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 67,
+  "fields": {
+    "title": "Ход королевы",
+    "year": 2020,
+    "description": "История молодой шахматистки.",
+    "full_description": "Бет Гармон преодолевает личные трудности и профессиональные вызовы, становясь великой шахматисткой. Сериал исследует психологические аспекты, амбиции и зависимость.",
+    "rating": "8.6",
+    "poster": "catalog/series/khod-korolevy.jpg",
+    "created_at": "2026-01-17",
+    "creator": 64,
+    "country": "США",
+    "slug": "khod-korolevy",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      2,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 68,
+  "fields": {
+    "title": "Люцифер",
+    "year": 2016,
+    "description": "Дьявол помогает расследовать преступления.",
+    "full_description": "Люцифер Morningstar покидает ад и начинает помогать полиции Лос-Анджелеса раскрывать преступления. Сериал сочетает комедию, криминал и элементы фэнтези.",
+    "rating": "8.5",
+    "poster": "catalog/series/lyutsifer.jfif",
+    "created_at": "2026-01-17",
+    "creator": 75,
+    "country": "США",
+    "slug": "lyutsifer",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 69,
+  "fields": {
+    "title": "Тед Лассо",
+    "year": 2020,
+    "description": "Тренер футбольной команды в Англии.",
+    "full_description": "Американский тренер Тед Лассо приезжает в Англию, чтобы тренировать команду по футболу, сталкиваясь с культурными различиями, командной динамикой и личным ростом.",
+    "rating": "8.8",
+    "poster": "catalog/series/ted-lasso_0rcbo5T.jpg",
+    "created_at": "2026-01-17",
+    "creator": 71,
+    "country": "США",
+    "slug": "ted-lasso",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      19
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 70,
+  "fields": {
+    "title": "Бриджертоны",
+    "year": 2020,
+    "description": "Семейные драмы и любовные интриги в Англии.",
+    "full_description": "Семья Бриджертонов и их соседи переживают любовные интриги, социальные давления и семейные конфликты. Сериал сочетает романтику, драму и исторический контекст.",
+    "rating": "7.9",
+    "poster": "catalog/series/bridzhertony.jpg",
+    "created_at": "2026-01-17",
+    "creator": 70,
+    "country": "Великобритания",
+    "slug": "bridzhertony",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      2,
+      6,
+      14
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 71,
+  "fields": {
+    "title": "Барри",
+    "year": 2018,
+    "description": "Наемный убийца становится актером.",
+    "full_description": "Барри, бывший морской пехотинец и наемный убийца, решает стать актером, сталкиваясь с криминальными обязательствами и личной трансформацией.",
+    "rating": "8.5",
+    "poster": "catalog/series/barri.jpg",
+    "created_at": "2026-01-17",
+    "creator": 74,
+    "country": "США",
+    "slug": "barri",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      2,
+      7,
+      20
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 72,
+  "fields": {
+    "title": "Кобра Кай",
+    "year": 2018,
+    "description": "Продолжение истории 'Каратэ-пацана'.",
+    "full_description": "Действие происходит спустя десятилетия после оригинального фильма. Старые соперники возрождают свои карате-школы, вызывая новые конфликты и дружбу.",
+    "rating": "8.3",
+    "poster": "catalog/series/kobra-kay.jfif",
+    "created_at": "2026-01-17",
+    "creator": 73,
+    "country": "США",
+    "slug": "kobra-kay",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 73,
+  "fields": {
+    "title": "Пацаны",
+    "year": 2019,
+    "description": "Супергерои сталкиваются с коррупцией в мире.",
+    "full_description": "Группа обычных людей решает бороться с супергероями, которые злоупотребляют своей властью, сталкиваясь с моральными и физическими последствиями.",
+    "rating": "8.7",
+    "poster": "catalog/series/patsany.png",
+    "created_at": "2026-01-17",
+    "creator": 78,
+    "country": "США",
+    "slug": "patsany",
+    "content_type": "series",
+    "page_author": null,
+    "genres": [
+      3,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 81,
+  "fields": {
+    "title": "Преступление и наказание",
+    "year": 1866,
+    "description": "Роман о моральной дилемме и преступлении.",
+    "full_description": "История студента Родион Раскольникова, который совершает убийство старухи-процентщицы и сталкивается с внутренним и внешним моральным конфликтом.",
+    "rating": "9.0",
+    "poster": "catalog/book/prestuplenie-i-nakazanie_9G1nZLT.jfif",
+    "created_at": "2026-01-01",
+    "creator": 112,
+    "country": "Россия",
+    "slug": "prestuplenie-i-nakazanie",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 82,
+  "fields": {
+    "title": "Война и мир",
+    "year": 1869,
+    "description": "Эпический роман о жизни русского общества в эпоху Наполеоновских войн.",
+    "full_description": "Истории нескольких аристократических семей переплетаются на фоне исторических событий, раскрывая характеры, судьбы и философские размышления автора.",
+    "rating": "9.1",
+    "poster": "catalog/book/voyna-i-mir.jpg",
+    "created_at": "2026-01-01",
+    "creator": 113,
+    "country": "Россия",
+    "slug": "voyna-i-mir",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 83,
+  "fields": {
+    "title": "Вишнёвый сад",
+    "year": 1904,
+    "description": "Пьеса о конце дворянской эпохи и социальных изменениях.",
+    "full_description": "Дворянская семья теряет своё имение, символизирующее старый порядок, и вынуждена расставаться с прошлым.",
+    "rating": "8.7",
+    "poster": "catalog/book/vishnevyy-sad.jpg",
+    "created_at": "2026-01-01",
+    "creator": 114,
+    "country": "Россия",
+    "slug": "vishnevyy-sad",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 84,
+  "fields": {
+    "title": "Отцы и дети",
+    "year": 1862,
+    "description": "Роман о столкновении поколений и идеологических конфликтов.",
+    "full_description": "История борьбы молодых нигилистов с консервативными взглядами старшего поколения на фоне социальных изменений в России XIX века.",
+    "rating": "8.5",
+    "poster": "catalog/book/otcy-i-deti.jpg",
+    "created_at": "2026-01-01",
+    "creator": 115,
+    "country": "Россия",
+    "slug": "otcy-i-deti",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 85,
+  "fields": {
+    "title": "Мёртвые души",
+    "year": 1842,
+    "description": "Сатирический роман о пороках общества.",
+    "full_description": "Чичиков покупает «мертвые души» у помещиков, сталкиваясь с человеческой жадностью, ленью и лицемерием, показывая социальные и нравственные пороки России.",
+    "rating": "8.6",
+    "poster": "catalog/book/mertvye-dushi.jpg",
+    "created_at": "2026-01-01",
+    "creator": 116,
+    "country": "Россия",
+    "slug": "mertvye-dushi",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 86,
+  "fields": {
+    "title": "Гамлет",
+    "year": 1603,
+    "description": "Трагедия о судьбе датского принца и мести.",
+    "full_description": "Принц Гамлет узнаёт о предательстве и смерти отца, борется с внутренними сомнениями и местью в мире интриг и коварства.",
+    "rating": "9.2",
+    "poster": "catalog/book/gamlet.jfif",
+    "created_at": "2026-01-01",
+    "creator": 117,
+    "country": "Англия",
+    "slug": "gamlet",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 87,
+  "fields": {
+    "title": "Приключения Оливера Твиста",
+    "year": 1838,
+    "description": "История сироты в Лондоне.",
+    "full_description": "Оливер Твист сталкивается с жестокостью и несправедливостью, но сохраняет веру в добро и справедливость, проходя через многочисленные испытания и приключения.",
+    "rating": "8.4",
+    "poster": "catalog/book/priklyucheniya-olivera-tvista.jpg",
+    "created_at": "2026-01-01",
+    "creator": 118,
+    "country": "Великобритания",
+    "slug": "priklyucheniya-olivera-tvista",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 88,
+  "fields": {
+    "title": "Старик и море",
+    "year": 1952,
+    "description": "Повесть о борьбе человека с природой.",
+    "full_description": "Старик Сантьяго ведёт тяжёлую борьбу с морем, чтобы поймать рыбу, и доказывает силу воли и человеческую стойкость.",
+    "rating": "8.9",
+    "poster": "catalog/book/starik-i-more.jpg",
+    "created_at": "2026-01-01",
+    "creator": 119,
+    "country": "США",
+    "slug": "starik-i-more",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 89,
+  "fields": {
+    "title": "Великий Гэтсби",
+    "year": 1925,
+    "description": "Роман о мечтах и разрушении американской мечты.",
+    "full_description": "История Джея Гэтсби, его любви и трагедии на фоне богатства, иллюзий и жестокости общества.",
+    "rating": "8.7",
+    "poster": "catalog/book/velikiy-gatsby-book.jpg",
+    "created_at": "2026-01-01",
+    "creator": 120,
+    "country": "США",
+    "slug": "velikiy-gatsby-book",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 90,
+  "fields": {
+    "title": "Белый Клык",
+    "year": 2000,
+    "description": "Роман о жизни иммигрантов в Лондоне.",
+    "full_description": "История нескольких поколений и их проблем в контексте британского общества с юмором, трагедией и социальной сатирой.",
+    "rating": "8.3",
+    "poster": "catalog/book/belye-zuby.jfif",
+    "created_at": "2026-01-01",
+    "creator": 121,
+    "country": "Великобритания",
+    "slug": "belye-zuby",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 91,
+  "fields": {
+    "title": "Властелин колец: Братство Кольца",
+    "year": 1954,
+    "description": "Эпическое фэнтези о борьбе добра и зла.",
+    "full_description": "Первая часть трилогии о путешествии хоббита Фродо Бэггинса, которому предстоит уничтожить Кольцо Всевластья.",
+    "rating": "9.2",
+    "poster": "catalog/book/lotr-fellowship.jfif",
+    "created_at": "2026-01-01",
+    "creator": 122,
+    "country": "Великобритания",
+    "slug": "lotr-fellowship",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 92,
+  "fields": {
+    "title": "1984",
+    "year": 1949,
+    "description": "Антиутопия о тоталитарном обществе.",
+    "full_description": "Роман о мире тотального контроля, где Большой Брат следит за каждым шагом человека.",
+    "rating": "9.1",
+    "poster": "catalog/book/1984-orwell.jpg",
+    "created_at": "2026-01-01",
+    "creator": 123,
+    "country": "Великобритания",
+    "slug": "1984-orwell",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 93,
+  "fields": {
+    "title": "451 градус по Фаренгейту",
+    "year": 1953,
+    "description": "Антиутопия о запрете книг.",
+    "full_description": "История общества, где книги сжигаются, а мышление считается преступлением.",
+    "rating": "8.9",
+    "poster": "catalog/book/fahrenheit-451.jpg",
+    "created_at": "2026-01-01",
+    "creator": 124,
+    "country": "США",
+    "slug": "fahrenheit-451",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 95,
+  "fields": {
+    "title": "Дюна",
+    "year": 1965,
+    "description": "Культовый научно-фантастический роман.",
+    "full_description": "История планеты Арракис и борьбы за контроль над самым ценным ресурсом во Вселенной.",
+    "rating": "9.0",
+    "poster": "catalog/book/dune.jfif",
+    "created_at": "2026-01-01",
+    "creator": 126,
+    "country": "США",
+    "slug": "dune",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 96,
+  "fields": {
+    "title": "Оно",
+    "year": 1986,
+    "description": "Роман ужасов о древнем зле.",
+    "full_description": "Группа друзей сталкивается с сущностью, принимающей облик их самых страшных кошмаров.",
+    "rating": "8.7",
+    "poster": "catalog/book/it-king.jpeg",
+    "created_at": "2026-01-01",
+    "creator": 127,
+    "country": "США",
+    "slug": "it-king",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 97,
+  "fields": {
+    "title": "Гарри Поттер и философский камень",
+    "year": 1997,
+    "description": "Фэнтези о мире магии.",
+    "full_description": "История мальчика-волшебника, который узнаёт о своём предназначении.",
+    "rating": "9.0",
+    "poster": "catalog/book/harry-potter-1.jpg",
+    "created_at": "2026-01-01",
+    "creator": 128,
+    "country": "Великобритания",
+    "slug": "harry-potter-1",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 98,
+  "fields": {
+    "title": "Игра престолов",
+    "year": 1996,
+    "description": "Фэнтези о борьбе за власть.",
+    "full_description": "Первая книга цикла «Песнь льда и пламени» о войне великих домов Вестероса.",
+    "rating": "9.1",
+    "poster": "catalog/book/game-of-thrones-book.jpg",
+    "created_at": "2026-01-01",
+    "creator": 129,
+    "country": "США",
+    "slug": "game-of-thrones-book",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 99,
+  "fields": {
+    "title": "Код да Винчи",
+    "year": 2003,
+    "description": "Детективный триллер.",
+    "full_description": "Расследование тайны, связанной с религиозными символами и историческими заговорами.",
+    "rating": "8.4",
+    "poster": "catalog/book/da-vinci-code.jpg",
+    "created_at": "2026-01-01",
+    "creator": 130,
+    "country": "США",
+    "slug": "da-vinci-code",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 101,
+  "fields": {
+    "title": "Убийство в Восточном экспрессе",
+    "year": 1934,
+    "description": "Классический детектив с Эркюлем Пуаро.",
+    "full_description": "Расследование загадочного убийства в поезде, застрявшем в снегах.",
+    "rating": "9.0",
+    "poster": "catalog/book/murder-on-the-orient-express.jpg",
+    "created_at": "2026-01-01",
+    "creator": 132,
+    "country": "Великобритания",
+    "slug": "murder-on-the-orient-express",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 102,
+  "fields": {
+    "title": "Собака Баскервилей",
+    "year": 1902,
+    "description": "Самое известное дело Шерлока Холмса.",
+    "full_description": "Мистическая история о древнем проклятии рода Баскервилей.",
+    "rating": "9.1",
+    "poster": "catalog/book/hound-of-the-baskervilles_k0JMaat.jfif",
+    "created_at": "2026-01-01",
+    "creator": 133,
+    "country": "Великобритания",
+    "slug": "hound-of-the-baskervilles",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 103,
+  "fields": {
+    "title": "Девушка с татуировкой дракона",
+    "year": 2005,
+    "description": "Криминальный триллер.",
+    "full_description": "Журналист и хакер расследуют исчезновение девушки, произошедшее десятилетия назад.",
+    "rating": "8.8",
+    "poster": "catalog/book/girl-with-the-dragon-tattoo.jfif",
+    "created_at": "2026-01-01",
+    "creator": 134,
+    "country": "Швеция",
+    "slug": "girl-with-the-dragon-tattoo",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 104,
+  "fields": {
+    "title": "Исчезнувшая",
+    "year": 2012,
+    "description": "Психологический триллер.",
+    "full_description": "История загадочного исчезновения женщины и разрушения идеального брака.",
+    "rating": "8.7",
+    "poster": "catalog/book/gone-girl.jfif",
+    "created_at": "2026-01-01",
+    "creator": 135,
+    "country": "США",
+    "slug": "gone-girl",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 105,
+  "fields": {
+    "title": "Алхимик",
+    "year": 1988,
+    "description": "Философская притча.",
+    "full_description": "История пастуха Сантьяго, ищущего своё предназначение.",
+    "rating": "8.6",
+    "poster": "catalog/book/the-alchemist.jpg",
+    "created_at": "2026-01-01",
+    "creator": 136,
+    "country": "Бразилия",
+    "slug": "the-alchemist",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 106,
+  "fields": {
+    "title": "Азазель",
+    "year": 1998,
+    "description": "Исторический детектив.",
+    "full_description": "Первое дело Эраста Фандорина.",
+    "rating": "8.5",
+    "poster": "catalog/book/azazel.jpg",
+    "created_at": "2026-01-01",
+    "creator": 137,
+    "country": "Россия",
+    "slug": "azazel",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 107,
+  "fields": {
+    "title": "Generation «П»",
+    "year": 1999,
+    "description": "Постмодернистский роман.",
+    "full_description": "Сатира на рекламу, общество и массовую культуру 90-х.",
+    "rating": "8.4",
+    "poster": "catalog/book/generation-p.jpg",
+    "created_at": "2026-01-01",
+    "creator": 138,
+    "country": "Россия",
+    "slug": "generation-p",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 108,
+  "fields": {
+    "title": "Метро 2033",
+    "year": 2005,
+    "description": "Постапокалиптический роман.",
+    "full_description": "Люди выживают в московском метро после ядерной катастрофы.",
+    "rating": "8.8",
+    "poster": "catalog/book/metro-2033.jpg",
+    "created_at": "2026-01-01",
+    "creator": 139,
+    "country": "Россия",
+    "slug": "metro-2033",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 109,
+  "fields": {
+    "title": "Казус Кукоцкого",
+    "year": 2001,
+    "description": "Социально-философский роман.",
+    "full_description": "История врача и судьбы его семьи на фоне советской эпохи.",
+    "rating": "8.3",
+    "poster": "catalog/book/kazus-kukotskogo.jpg",
+    "created_at": "2026-01-01",
+    "creator": 140,
+    "country": "Россия",
+    "slug": "kazus-kukotskogo",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 111,
+  "fields": {
+    "title": "Норвежский лес",
+    "year": 1987,
+    "description": "Роман о любви и одиночестве.",
+    "full_description": "Лирическая история взросления, утраты и внутреннего поиска.",
+    "rating": "8.6",
+    "poster": "catalog/book/norwegian-wood.jpg",
+    "created_at": "2026-01-01",
+    "creator": 142,
+    "country": "Япония",
+    "slug": "norwegian-wood",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 112,
+  "fields": {
+    "title": "Бойня номер пять",
+    "year": 1969,
+    "description": "Антивоенный роман.",
+    "full_description": "Абсурдная и трагическая история солдата, застрявшего во времени.",
+    "rating": "8.8",
+    "poster": "catalog/book/slaughterhouse-five.jpg",
+    "created_at": "2026-01-01",
+    "creator": 143,
+    "country": "США",
+    "slug": "slaughterhouse-five",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 113,
+  "fields": {
+    "title": "Рассказ служанки",
+    "year": 1985,
+    "description": "Антиутопия о тоталитарном обществе.",
+    "full_description": "История женщины в мире, где у неё отняты права и свободы.",
+    "rating": "8.7",
+    "poster": "catalog/book/the-handmaids-tale.jpg",
+    "created_at": "2026-01-01",
+    "creator": 144,
+    "country": "Канада",
+    "slug": "the-handmaids-tale",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 114,
+  "fields": {
+    "title": "Щегол",
+    "year": 2013,
+    "description": "Психологический роман.",
+    "full_description": "История мальчика, пережившего трагедию и сохранившего тайну на всю жизнь.",
+    "rating": "8.5",
+    "poster": "catalog/book/the-goldfinch.jpg",
+    "created_at": "2026-01-01",
+    "creator": 145,
+    "country": "США",
+    "slug": "the-goldfinch",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 116,
+  "fields": {
+    "title": "Гроза",
+    "year": 1859,
+    "description": "Классическая русская драма.",
+    "full_description": "Трагедия личности в условиях патриархального общества.",
+    "rating": "8.2",
+    "poster": "catalog/book/groza.jpg",
+    "created_at": "2026-01-01",
+    "creator": 147,
+    "country": "Россия",
+    "slug": "groza",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 117,
+  "fields": {
+    "title": "Горе от ума",
+    "year": 1825,
+    "description": "Комедия в стихах.",
+    "full_description": "Сатирическое произведение о конфликте личности и общества.",
+    "rating": "8.6",
+    "poster": "catalog/book/gore-ot-uma.jpg",
+    "created_at": "2026-01-01",
+    "creator": 148,
+    "country": "Россия",
+    "slug": "gore-ot-uma",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 118,
+  "fields": {
+    "title": "Трамвай «Желание»",
+    "year": 1947,
+    "description": "Психологическая драма.",
+    "full_description": "История разрушения иллюзий и человеческой уязвимости.",
+    "rating": "8.3",
+    "poster": "catalog/book/a-streetcar-named-desire.jpg",
+    "created_at": "2026-01-01",
+    "creator": 149,
+    "country": "США",
+    "slug": "a-streetcar-named-desire",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 119,
+  "fields": {
+    "title": "Смерть коммивояжёра",
+    "year": 1949,
+    "description": "Социальная драма.",
+    "full_description": "Трагедия человека, сломленного американской мечтой.",
+    "rating": "8.4",
+    "poster": "catalog/book/death-of-a-salesman.jpg",
+    "created_at": "2026-01-01",
+    "creator": 150,
+    "country": "США",
+    "slug": "death-of-a-salesman",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 121,
+  "fields": {
+    "title": "Евгений Онегин",
+    "year": 1833,
+    "description": "Роман в стихах о судьбе дворянской молодёжи.",
+    "full_description": "Классический роман Александра Пушкина, отражающий нравы и духовные поиски русского общества XIX века через судьбу Евгения Онегина.",
+    "rating": "9.2",
+    "poster": "catalog/book/evgenii-onegin.jfif",
+    "created_at": "2026-01-01",
+    "creator": 152,
+    "country": "Россия",
+    "slug": "evgenii-onegin",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 122,
+  "fields": {
+    "title": "Герой нашего времени",
+    "year": 1840,
+    "description": "Психологический портрет поколения.",
+    "full_description": "Роман Михаила Лермонтова, исследующий внутренний конфликт личности и общества через образ Печорина.",
+    "rating": "9.1",
+    "poster": "catalog/book/geroi-nashego-vremeni.jpg",
+    "created_at": "2026-01-01",
+    "creator": 153,
+    "country": "Россия",
+    "slug": "geroi-nashego-vremeni",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 123,
+  "fields": {
+    "title": "Облако в штанах",
+    "year": 1915,
+    "description": "Поэма о любви и революции.",
+    "full_description": "Одно из ключевых произведений Владимира Маяковского, соединяющее личную драму и социальный протест.",
+    "rating": "8.8",
+    "poster": "catalog/book/oblako-v-shtanah.jfif",
+    "created_at": "2026-01-01",
+    "creator": 154,
+    "country": "Россия",
+    "slug": "oblako-v-shtanah",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 125,
+  "fields": {
+    "title": "Меньше единицы",
+    "year": 1986,
+    "description": "Эссе о литературе и культуре.",
+    "full_description": "Сборник эссе Иосифа Бродского, размышляющий о поэзии, языке и изгнании.",
+    "rating": "8.9",
+    "poster": "catalog/book/menshe-edinitsy_4YZY6dX.jpg",
+    "created_at": "2026-01-01",
+    "creator": 156,
+    "country": "США",
+    "slug": "menshe-edinitsy",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 126,
+  "fields": {
+    "title": "Мастер и Маргарита",
+    "year": 1967,
+    "description": "Мистический роман о добре и зле.",
+    "full_description": "Главное произведение Михаила Булгакова, соединяющее сатиру, философию и библейские мотивы.",
+    "rating": "9.6",
+    "poster": "catalog/book/master-i-margarita_hcDaclq.jpg",
+    "created_at": "2026-01-01",
+    "creator": 157,
+    "country": "Россия",
+    "slug": "master-i-margarita",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 127,
+  "fields": {
+    "title": "Архипелаг ГУЛАГ",
+    "year": 1973,
+    "description": "Документальный эпос о репрессиях.",
+    "full_description": "Фундаментальный труд Александра Солженицына о системе лагерей в СССР.",
+    "rating": "9.4",
+    "poster": "catalog/book/arhipelag-gulag_pVnqWMI.jpg",
+    "created_at": "2026-01-01",
+    "creator": 158,
+    "country": "СССР",
+    "slug": "arhipelag-gulag",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 128,
+  "fields": {
+    "title": "Лолита",
+    "year": 1955,
+    "description": "Провокационный психологический роман.",
+    "full_description": "Самое известное произведение Владимира Набокова, исследующее запретную страсть и одержимость.",
+    "rating": "9.0",
+    "poster": "catalog/book/lolita_mBNQmc0.jpg",
+    "created_at": "2026-01-01",
+    "creator": 159,
+    "country": "США",
+    "slug": "lolita",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 129,
+  "fields": {
+    "title": "В поисках утраченного времени",
+    "year": 1913,
+    "description": "Монументальный роман о памяти.",
+    "full_description": "Эпопея Марселя Пруста о времени, воспоминаниях и человеческом сознании.",
+    "rating": "9.1",
+    "poster": "catalog/book/v-poiskah-utrachennogo-vremeni.jpg",
+    "created_at": "2026-01-01",
+    "creator": 160,
+    "country": "Франция",
+    "slug": "v-poiskah-utrachennogo-vremeni",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 130,
+  "fields": {
+    "title": "Процесс",
+    "year": 1925,
+    "description": "Абсурдный роман о вине.",
+    "full_description": "Философский роман Франца Кафки о человеке, попавшем в безликую судебную систему.",
+    "rating": "9.0",
+    "poster": "catalog/book/process.jfif",
+    "created_at": "2026-01-01",
+    "creator": 161,
+    "country": "Австро-Венгрия",
+    "slug": "process",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 131,
+  "fields": {
+    "title": "Дары волхвов",
+    "year": 1905,
+    "description": "Трогательный рассказ о любви.",
+    "full_description": "Самый известный рассказ О. Генри о жертве и искренних чувствах.",
+    "rating": "8.7",
+    "poster": "catalog/book/dary-volhvov.jpg",
+    "created_at": "2026-01-01",
+    "creator": 162,
+    "country": "США",
+    "slug": "dary-volhvov",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 132,
+  "fields": {
+    "title": "Ворон",
+    "year": 1845,
+    "description": "Мрачная поэма о потере.",
+    "full_description": "Знаменитое стихотворение Эдгара По, ставшее символом готической литературы.",
+    "rating": "8.9",
+    "poster": "catalog/book/voron.jpg",
+    "created_at": "2026-01-01",
+    "creator": 163,
+    "country": "США",
+    "slug": "voron",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 133,
+  "fields": {
+    "title": "Милый друг",
+    "year": 1885,
+    "description": "Социальная сатира.",
+    "full_description": "Роман Ги де Мопассана о карьеризме, власти и лицемерии общества.",
+    "rating": "8.8",
+    "poster": "catalog/book/milyi-drug.jfif",
+    "created_at": "2026-01-01",
+    "creator": 164,
+    "country": "Франция",
+    "slug": "milyi-drug",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 134,
+  "fields": {
+    "title": "Гранатовый браслет",
+    "year": 1911,
+    "description": "Трагическая история любви.",
+    "full_description": "Известная повесть Александра Куприна о безответном, но чистом чувстве.",
+    "rating": "8.9",
+    "poster": "catalog/book/granatovyi-braslet.jpg",
+    "created_at": "2026-01-01",
+    "creator": 165,
+    "country": "Россия",
+    "slug": "granatovyi-braslet",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 135,
+  "fields": {
+    "title": "Тёмные аллеи",
+    "year": 1943,
+    "description": "Сборник рассказов о любви.",
+    "full_description": "Один из самых лиричных сборников Ивана Бунина, посвящённый памяти и утраченной любви.",
+    "rating": "9.0",
+    "poster": "catalog/book/temnye-allei_InzImL4.jpg",
+    "created_at": "2026-01-01",
+    "creator": 166,
+    "country": "Россия",
+    "slug": "temnye-allei",
+    "content_type": "book",
+    "page_author": null,
+    "genres": []
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 136,
+  "fields": {
+    "title": "Half-Life 2",
+    "year": 2004,
+    "description": "Культовый шутер от первого лица.",
+    "full_description": "Продолжение Half-Life, считающееся одной из лучших игр в истории.",
+    "rating": "9.6",
+    "poster": "catalog/computergame/half-life-2_nudlJiG.jpg",
+    "created_at": "2024-01-01",
+    "creator": 167,
+    "country": "США",
+    "slug": "half-life-2",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      9,
+      21,
+      26
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 137,
+  "fields": {
+    "title": "The Witcher 3: Wild Hunt",
+    "year": 2015,
+    "description": "Ролевая игра в открытом мире.",
+    "full_description": "История ведьмака Геральта в мрачном фэнтезийном мире.",
+    "rating": "9.8",
+    "poster": "catalog/computergame/the-witcher-3.jpg",
+    "created_at": "2024-01-01",
+    "creator": 168,
+    "country": "Польша",
+    "slug": "the-witcher-3",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      4,
+      8,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 138,
+  "fields": {
+    "title": "World of Warcraft",
+    "year": 2004,
+    "description": "Массовая многопользовательская RPG.",
+    "full_description": "Самая популярная MMORPG в истории.",
+    "rating": "9.4",
+    "poster": "catalog/computergame/world-of-warcraft.jpg",
+    "created_at": "2024-01-01",
+    "creator": 169,
+    "country": "США",
+    "slug": "world-of-warcraft",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      4,
+      22,
+      32
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 139,
+  "fields": {
+    "title": "Grand Theft Auto V",
+    "year": 2013,
+    "description": "Экшен в открытом мире.",
+    "full_description": "История трёх преступников в Лос-Сантосе.",
+    "rating": "9.7",
+    "poster": "catalog/computergame/gta-5.jpg",
+    "created_at": "2024-01-01",
+    "creator": 170,
+    "country": "США",
+    "slug": "gta-5",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      12,
+      21,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 140,
+  "fields": {
+    "title": "The Elder Scrolls V: Skyrim",
+    "year": 2011,
+    "description": "Фэнтезийная RPG с открытым миром.",
+    "full_description": "Легендарная ролевая игра о Довакине.",
+    "rating": "9.5",
+    "poster": "catalog/computergame/skyrim.jpg",
+    "created_at": "2024-01-01",
+    "creator": 171,
+    "country": "США",
+    "slug": "skyrim",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      4,
+      22,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 141,
+  "fields": {
+    "title": "Assassin’s Creed II",
+    "year": 2009,
+    "description": "Исторический экшен.",
+    "full_description": "История ассасина Эцио Аудиторе.",
+    "rating": "9.1",
+    "poster": "catalog/computergame/assassins-creed-2.jpg",
+    "created_at": "2024-01-01",
+    "creator": 172,
+    "country": "Франция",
+    "slug": "assassins-creed-2",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      14,
+      21
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 142,
+  "fields": {
+    "title": "FIFA 23",
+    "year": 2022,
+    "description": "Футбольный симулятор.",
+    "full_description": "Самая популярная спортивная игра EA.",
+    "rating": "8.8",
+    "poster": "catalog/computergame/fifa-23.jpg",
+    "created_at": "2024-01-01",
+    "creator": 173,
+    "country": "США",
+    "slug": "fifa-23",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      19,
+      23
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 143,
+  "fields": {
+    "title": "Call of Duty: Modern Warfare",
+    "year": 2019,
+    "description": "Военный шутер.",
+    "full_description": "Перезапуск культовой серии Call of Duty.",
+    "rating": "8.9",
+    "poster": "catalog/computergame/cod-modern-warfare.jpg",
+    "created_at": "2024-01-01",
+    "creator": 174,
+    "country": "США",
+    "slug": "cod-modern-warfare",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      17,
+      21,
+      26
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 144,
+  "fields": {
+    "title": "Fortnite",
+    "year": 2017,
+    "description": "Онлайн-шутер и королевская битва.",
+    "full_description": "Одна из самых популярных игр в мире.",
+    "rating": "8.7",
+    "poster": "catalog/computergame/fortnite.png",
+    "created_at": "2024-01-01",
+    "creator": 175,
+    "country": "США",
+    "slug": "fortnite",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      26,
+      30,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 145,
+  "fields": {
+    "title": "League of Legends",
+    "year": 2009,
+    "description": "Командная MOBA-игра.",
+    "full_description": "Самая популярная MOBA в мире.",
+    "rating": "9.0",
+    "poster": "catalog/computergame/league-of-legends.jpg",
+    "created_at": "2024-01-01",
+    "creator": 176,
+    "country": "США",
+    "slug": "league-of-legends",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      4,
+      21,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 146,
+  "fields": {
+    "title": "Final Fantasy VII",
+    "year": 1997,
+    "description": "Культовая японская RPG.",
+    "full_description": "История Клауда Страйфа и борьбы с корпорацией Shinra и Сефиротом.",
+    "rating": "9.4",
+    "poster": "catalog/computergame/final-fantasy-vii.jpg",
+    "created_at": "2026-01-01",
+    "creator": 177,
+    "country": "Япония",
+    "slug": "final-fantasy-vii",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      4,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 147,
+  "fields": {
+    "title": "Resident Evil 4",
+    "year": 2005,
+    "description": "Культовый survival-horror.",
+    "full_description": "Леон Кеннеди отправляется спасать дочь президента в заражённую деревню.",
+    "rating": "9.3",
+    "poster": "catalog/computergame/resident-evil-4.jpg",
+    "created_at": "2026-01-01",
+    "creator": 178,
+    "country": "Япония",
+    "slug": "resident-evil-4",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      26,
+      31
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 148,
+  "fields": {
+    "title": "Tekken 7",
+    "year": 2015,
+    "description": "Легендарный файтинг.",
+    "full_description": "Продолжение саги о семье Мисима.",
+    "rating": "8.7",
+    "poster": "catalog/computergame/tekken-7.jpg",
+    "created_at": "2026-01-01",
+    "creator": 179,
+    "country": "Япония",
+    "slug": "tekken-7",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      27
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 149,
+  "fields": {
+    "title": "Elden Ring",
+    "year": 2022,
+    "description": "Хардкорная action-RPG.",
+    "full_description": "Открытый мир от FromSoftware и Джорджа Мартина.",
+    "rating": "9.6",
+    "poster": "catalog/computergame/elden-ring.jpg",
+    "created_at": "2026-01-01",
+    "creator": 180,
+    "country": "Япония",
+    "slug": "elden-ring",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      4,
+      21,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 150,
+  "fields": {
+    "title": "Baldur’s Gate 3",
+    "year": 2023,
+    "description": "Современная классическая RPG.",
+    "full_description": "Глубокая ролевая игра по правилам D&D.",
+    "rating": "9.8",
+    "poster": "catalog/computergame/baldurs-gate-3.jpg",
+    "created_at": "2026-01-01",
+    "creator": 181,
+    "country": "Бельгия",
+    "slug": "baldurs-gate-3",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      4,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 151,
+  "fields": {
+    "title": "Europa Universalis IV",
+    "year": 2013,
+    "description": "Глобальная стратегия.",
+    "full_description": "Управление государством от Средневековья до Нового времени.",
+    "rating": "8.9",
+    "poster": "catalog/computergame/europa-universalis-iv.jfif",
+    "created_at": "2026-01-01",
+    "creator": 182,
+    "country": "Швеция",
+    "slug": "europa-universalis-iv",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 152,
+  "fields": {
+    "title": "Total War: Rome II",
+    "year": 2013,
+    "description": "Историческая стратегия.",
+    "full_description": "Завоевание античного мира в реальном времени.",
+    "rating": "8.2",
+    "poster": "catalog/computergame/total-war-rome-ii.jpg",
+    "created_at": "2026-01-01",
+    "creator": 183,
+    "country": "Великобритания",
+    "slug": "total-war-rome-ii",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      14,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 153,
+  "fields": {
+    "title": "BioShock",
+    "year": 2007,
+    "description": "Атмосферный шутер.",
+    "full_description": "Философская антиутопия под водой.",
+    "rating": "9.1",
+    "poster": "catalog/computergame/bioshock.jpg",
+    "created_at": "2026-01-01",
+    "creator": 184,
+    "country": "США",
+    "slug": "bioshock",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      9,
+      26
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 154,
+  "fields": {
+    "title": "Borderlands 2",
+    "year": 2012,
+    "description": "Безумный лутер-шутер.",
+    "full_description": "Юмор, экшен и кооператив.",
+    "rating": "8.8",
+    "poster": "catalog/computergame/borderlands-2.jpg",
+    "created_at": "2026-01-01",
+    "creator": 185,
+    "country": "США",
+    "slug": "borderlands-2",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      22,
+      26
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 155,
+  "fields": {
+    "title": "Destiny 2",
+    "year": 2017,
+    "description": "Онлайн-шутер.",
+    "full_description": "Научно-фантастический экшен с кооперативом.",
+    "rating": "8.3",
+    "poster": "catalog/computergame/destiny-2.jpg",
+    "created_at": "2026-01-01",
+    "creator": 186,
+    "country": "США",
+    "slug": "destiny-2",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      9,
+      26
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 156,
+  "fields": {
+    "title": "Mass Effect",
+    "year": 2007,
+    "description": "Эпическая sci-fi RPG.",
+    "full_description": "Командир Шепард сражается за спасение галактики от Жнецов.",
+    "rating": "9.5",
+    "poster": "catalog/computergame/mass-effect.jpg",
+    "created_at": "2026-01-01",
+    "creator": 188,
+    "country": "США",
+    "slug": "mass-effect",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      9,
+      22
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 157,
+  "fields": {
+    "title": "Apex Legends",
+    "year": 2019,
+    "description": "Бесплатный королевский шутер.",
+    "full_description": "Командная игра в жанре Battle Royale от Respawn Entertainment.",
+    "rating": "8.8",
+    "poster": "catalog/computergame/apex-legends.jpg",
+    "created_at": "2026-01-01",
+    "creator": 189,
+    "country": "США",
+    "slug": "apex-legends",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      26,
+      30
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 158,
+  "fields": {
+    "title": "Doom Eternal",
+    "year": 2020,
+    "description": "Динамичный шутер от первого лица.",
+    "full_description": "Брутальные сражения с демонами на Земле и в аду.",
+    "rating": "9.0",
+    "poster": "catalog/computergame/doom-eternal.jpg",
+    "created_at": "2026-01-01",
+    "creator": 190,
+    "country": "США",
+    "slug": "doom-eternal",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      26,
+      31
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 159,
+  "fields": {
+    "title": "Hitman 3",
+    "year": 2021,
+    "description": "Скрытный экшен с убийствами по заказу.",
+    "full_description": "Агент 47 выполняет миссии по всему миру, используя скрытность и стратегию.",
+    "rating": "8.7",
+    "poster": "catalog/computergame/hitman-3.jpg",
+    "created_at": "2026-01-01",
+    "creator": 191,
+    "country": "Дания",
+    "slug": "hitman-3",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      22,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 160,
+  "fields": {
+    "title": "Control",
+    "year": 2019,
+    "description": "Сверхъестественный экшен с элементами хоррора.",
+    "full_description": "Джесси Фаден исследует здание Федерального Бюро Контроля, используя телекинез и оружие.",
+    "rating": "9.1",
+    "poster": "catalog/computergame/control.jpg",
+    "created_at": "2026-01-01",
+    "creator": 192,
+    "country": "Финляндия",
+    "slug": "control",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      10,
+      21,
+      31
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 161,
+  "fields": {
+    "title": "Dying Light",
+    "year": 2015,
+    "description": "Зомби-песочница с паркуром.",
+    "full_description": "Выживание в открытом мире с зомби, крафтом и паркуром.",
+    "rating": "8.6",
+    "poster": "catalog/computergame/dying-light.jpg",
+    "created_at": "2026-01-01",
+    "creator": 193,
+    "country": "Польша",
+    "slug": "dying-light",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      30,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 162,
+  "fields": {
+    "title": "Crysis",
+    "year": 2007,
+    "description": "Научно-фантастический шутер.",
+    "full_description": "Солдаты в высокотехнологичных костюмах сражаются с пришельцами.",
+    "rating": "8.5",
+    "poster": "catalog/computergame/crysis.jpg",
+    "created_at": "2026-01-01",
+    "creator": 194,
+    "country": "Германия",
+    "slug": "crysis",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      9,
+      21,
+      26
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 163,
+  "fields": {
+    "title": "Arma 3",
+    "year": 2013,
+    "description": "Реалистичный военный симулятор.",
+    "full_description": "Современные боевые действия с открытым миром и тактикой.",
+    "rating": "8.7",
+    "poster": "catalog/computergame/arma-3.jpeg",
+    "created_at": "2026-01-01",
+    "creator": 195,
+    "country": "Чехия",
+    "slug": "arma-3",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      24,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 164,
+  "fields": {
+    "title": "A Plague Tale: Innocence",
+    "year": 2019,
+    "description": "Исторический стелс-экшен.",
+    "full_description": "Амиция и её брат Хьюго выживают во Франции во времена Чумы, скрываясь от Инквизиции.",
+    "rating": "9.0",
+    "poster": "catalog/computergame/a-plague-tale-innocence.jpg",
+    "created_at": "2026-01-01",
+    "creator": 196,
+    "country": "Франция",
+    "slug": "a-plague-tale-innocence",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      21,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 165,
+  "fields": {
+    "title": "The Walking Dead",
+    "year": 2012,
+    "description": "Эпизодический квест с сильной историей.",
+    "full_description": "Игрок принимает решения за персонажей, влияя на сюжет в мире зомби-апокалипсиса.",
+    "rating": "9.0",
+    "poster": "catalog/computergame/the-walking-dead.jpg",
+    "created_at": "2026-01-01",
+    "creator": 197,
+    "country": "США",
+    "slug": "the-walking-dead",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      21,
+      34
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 166,
+  "fields": {
+    "title": "Hades",
+    "year": 2020,
+    "description": "Рогалик с динамичным боем и историей.",
+    "full_description": "Игрок управляет Загреем, сыном Аида, пытаясь выбраться из Подземного мира, сражаясь с богами и монстрами.",
+    "rating": "9.5",
+    "poster": "catalog/computergame/hades_JBwLnGJ.jpg",
+    "created_at": "2026-01-01",
+    "creator": 198,
+    "country": "США",
+    "slug": "hades",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      22,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 167,
+  "fields": {
+    "title": "Terraria",
+    "year": 2011,
+    "description": "Песочница с элементами выживания.",
+    "full_description": "Игрок исследует процедурно сгенерированный мир, строит, сражается с монстрами и исследует подземелья.",
+    "rating": "9.0",
+    "poster": "catalog/computergame/terraria.jfif",
+    "created_at": "2026-01-01",
+    "creator": 199,
+    "country": "США",
+    "slug": "terraria",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      30,
+      33,
+      34
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 168,
+  "fields": {
+    "title": "Oxygen Not Included",
+    "year": 2019,
+    "description": "Симулятор космической колонии.",
+    "full_description": "Игрок управляет колонией в астероиде, следит за кислородом, температурой и ресурсами, чтобы выжить.",
+    "rating": "8.7",
+    "poster": "catalog/computergame/oxygen-not-included.jpg",
+    "created_at": "2026-01-01",
+    "creator": 200,
+    "country": "США",
+    "slug": "oxygen-not-included",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      23,
+      24,
+      30
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 169,
+  "fields": {
+    "title": "Minecraft",
+    "year": 2011,
+    "description": "Песочница без границ.",
+    "full_description": "Игрок исследует, строит и выживает в бесконечном процедурном мире с блоками, мобами и крафтом.",
+    "rating": "9.8",
+    "poster": "catalog/computergame/minecraft.jpg",
+    "created_at": "2026-01-01",
+    "creator": 201,
+    "country": "Швеция",
+    "slug": "minecraft",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      30,
+      33,
+      34
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 170,
+  "fields": {
+    "title": "No Man's Sky",
+    "year": 2016,
+    "description": "Исследование космоса и планет.",
+    "full_description": "Игрок исследует бескрайнюю вселенную, собирает ресурсы, строит базы и взаимодействует с другими игроками.",
+    "rating": "8.5",
+    "poster": "catalog/computergame/no-mans-sky.jpg",
+    "created_at": "2026-01-01",
+    "creator": 202,
+    "country": "Великобритания",
+    "slug": "no-mans-sky",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      9,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 171,
+  "fields": {
+    "title": "Warframe",
+    "year": 2013,
+    "description": "ММО-шутер с боевыми ниндзя.",
+    "full_description": "Игроки управляют воином в футуристическом мире, выполняя миссии, сражаясь с другими игроками и монстрами.",
+    "rating": "8.6",
+    "poster": "catalog/computergame/warframe.jpg",
+    "created_at": "2026-01-01",
+    "creator": 203,
+    "country": "Канада",
+    "slug": "warframe",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      26,
+      32
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 172,
+  "fields": {
+    "title": "Rust",
+    "year": 2018,
+    "description": "Выживание в открытом мире.",
+    "full_description": "Игроки собирают ресурсы, строят базы и сражаются за выживание с другими игроками.",
+    "rating": "8.4",
+    "poster": "catalog/computergame/rust.jpg",
+    "created_at": "2026-01-01",
+    "creator": 204,
+    "country": "Великобритания",
+    "slug": "rust",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      30,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 173,
+  "fields": {
+    "title": "Gothic",
+    "year": 2001,
+    "description": "Классическая RPG с открытым миром.",
+    "full_description": "Игрок управляет изгнанником в мире Мидланда, выполняет квесты, исследует локации и сражается с врагами.",
+    "rating": "8.3",
+    "poster": "catalog/computergame/gothic.jpg",
+    "created_at": "2026-01-01",
+    "creator": 205,
+    "country": "Германия",
+    "slug": "gothic",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      22,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 174,
+  "fields": {
+    "title": "Hellblade: Senua's Sacrifice",
+    "year": 2017,
+    "description": "Психологический экшен с уникальной историей.",
+    "full_description": "Сенуа отправляется в мрачный мир скандинавской мифологии, чтобы спасти душу погибшего возлюбленного, сталкиваясь с психическими и физическими испытаниями.",
+    "rating": "9.0",
+    "poster": "catalog/computergame/hellblade-senuas-sacrifice.jpg",
+    "created_at": "2026-01-01",
+    "creator": 206,
+    "country": "Великобритания",
+    "slug": "hellblade-senuas-sacrifice",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 175,
+  "fields": {
+    "title": "Company of Heroes",
+    "year": 2006,
+    "description": "Стратегическая игра про Вторую мировую войну.",
+    "full_description": "Игрок управляет войсками в масштабных битвах Второй мировой войны, используя тактику и ресурсы для победы.",
+    "rating": "9.2",
+    "poster": "catalog/computergame/company-of-heroes.jpg",
+    "created_at": "2026-01-01",
+    "creator": 207,
+    "country": "США",
+    "slug": "company-of-heroes",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      17,
+      21,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 176,
+  "fields": {
+    "title": "Civilization VI",
+    "year": 2016,
+    "description": "Глобальная стратегия и управление цивилизацией.",
+    "full_description": "Игрок развивает цивилизацию от древних времен до будущего, строя города, исследуя технологии и ведя дипломатические и военные кампании.",
+    "rating": "9.3",
+    "poster": "catalog/computergame/civilization-vi.jpg",
+    "created_at": "2026-01-01",
+    "creator": 208,
+    "country": "США",
+    "slug": "civilization-vi",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      21,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 177,
+  "fields": {
+    "title": "Forza Horizon 5",
+    "year": 2021,
+    "description": "Гонки в открытом мире с потрясающей графикой.",
+    "full_description": "Игроки исследуют открытую Мексику, участвуют в гонках, собирают автомобили и выполняют задания, соревнуясь с другими игроками.",
+    "rating": "9.4",
+    "poster": "catalog/computergame/forza-horizon-5.jfif",
+    "created_at": "2026-01-01",
+    "creator": 209,
+    "country": "США",
+    "slug": "forza-horizon-5",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      21,
+      29
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 178,
+  "fields": {
+    "title": "Kingdom Come: Deliverance",
+    "year": 2018,
+    "description": "Реалистичная RPG в средневековой Чехии.",
+    "full_description": "Игрок исследует средневековый мир, выполняет квесты и участвует в боях с реалистичной механикой и историческим контекстом.",
+    "rating": "9.1",
+    "poster": "catalog/computergame/kingdom-come-deliverance.jpg",
+    "created_at": "2026-01-01",
+    "creator": 210,
+    "country": "Чехия",
+    "slug": "kingdom-come-deliverance",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      22,
+      24
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 179,
+  "fields": {
+    "title": "Satisfactory",
+    "year": 2020,
+    "description": "Песочница с элементами строительства и автоматизации.",
+    "full_description": "Игрок строит фабрики и заводы на чужой планете, оптимизирует производство и исследует технологии.",
+    "rating": "8.9",
+    "poster": "catalog/computergame/satisfactory.jpg",
+    "created_at": "2026-01-01",
+    "creator": 211,
+    "country": "Швеция",
+    "slug": "satisfactory",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      23,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 180,
+  "fields": {
+    "title": "Pathfinder: Wrath of the Righteous",
+    "year": 2021,
+    "description": "RPG с эпическим сюжетом и боями.",
+    "full_description": "Игрок управляет группой героев, исследует мир, сражается с монстрами и принимает решения, влияющие на сюжет и исход кампании.",
+    "rating": "9.2",
+    "poster": "catalog/computergame/pathfinder-wrath-of-the-righteous.jfif",
+    "created_at": "2026-01-01",
+    "creator": 212,
+    "country": "США",
+    "slug": "pathfinder-wrath-of-the-righteous",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      22,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 181,
+  "fields": {
+    "title": "World War Z",
+    "year": 2019,
+    "description": "Кооперативный шутер про зомби.",
+    "full_description": "Игроки сражаются с ордами зомби, используя тактику и оружие, чтобы выжить и завершить миссии.",
+    "rating": "8.8",
+    "poster": "catalog/computergame/world-war-z.jfif",
+    "created_at": "2026-01-01",
+    "creator": 213,
+    "country": "США",
+    "slug": "world-war-z",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      8,
+      21,
+      26
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 182,
+  "fields": {
+    "title": "Black Desert Online",
+    "year": 2015,
+    "description": "MMORPG с красивым миром и боевой системой.",
+    "full_description": "Игрок создает персонажа, исследует мир, выполняет задания и участвует в PvP и PvE сражениях.",
+    "rating": "9.0",
+    "poster": "catalog/computergame/black-desert-online.jpg",
+    "created_at": "2026-01-01",
+    "creator": 214,
+    "country": "Южная Корея",
+    "slug": "black-desert-online",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      32,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 183,
+  "fields": {
+    "title": "Path of Exile",
+    "year": 2013,
+    "description": "Экшен-RPG с огромным контентом и квестами.",
+    "full_description": "Игрок исследует огромный мир, выполняет квесты, собирает лут и улучшает персонажа, участвуя в различных событиях.",
+    "rating": "8.9",
+    "poster": "catalog/computergame/path-of-exile.jfif",
+    "created_at": "2026-01-01",
+    "creator": 215,
+    "country": "Новая Зеландия",
+    "slug": "path-of-exile",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      21,
+      22,
+      33
+    ]
+  }
+},
+{
+  "model": "catalog.mediaitem",
+  "pk": 184,
+  "fields": {
+    "title": "World of Tanks",
+    "year": 2010,
+    "description": "Онлайн-экшен про танковые сражения.",
+    "full_description": "Игрок управляет танками, участвует в командных боях и совершенствует технику, чтобы побеждать в PvP и PvE.",
+    "rating": "9.1",
+    "poster": "catalog/computergame/world-of-tanks.jpg",
+    "created_at": "2026-01-01",
+    "creator": 216,
+    "country": "Беларусь",
+    "slug": "world-of-tanks",
+    "content_type": "computergame",
+    "page_author": null,
+    "genres": [
+      17,
+      21,
+      29
+    ]
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 1,
+  "fields": {
+    "budget": 160000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 2,
+  "fields": {
+    "budget": 185000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 3,
+  "fields": {
+    "budget": 8000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 4,
+  "fields": {
+    "budget": 63000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 5,
+  "fields": {
+    "budget": 200000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 7,
+  "fields": {
+    "budget": 55000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 8,
+  "fields": {
+    "budget": 93000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 9,
+  "fields": {
+    "budget": 22000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 10,
+  "fields": {
+    "budget": 165000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 11,
+  "fields": {
+    "budget": 63000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 12,
+  "fields": {
+    "budget": 30000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 13,
+  "fields": {
+    "budget": 33000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 14,
+  "fields": {
+    "budget": 110000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 15,
+  "fields": {
+    "budget": 90000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 16,
+  "fields": {
+    "budget": 33000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 17,
+  "fields": {
+    "budget": 9000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 19,
+  "fields": {
+    "budget": 25000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 20,
+  "fields": {
+    "budget": 3300000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 21,
+  "fields": {
+    "budget": 30000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 22,
+  "fields": {
+    "budget": 100000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 23,
+  "fields": {
+    "budget": 60000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 24,
+  "fields": {
+    "budget": 20000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 25,
+  "fields": {
+    "budget": 80000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 26,
+  "fields": {
+    "budget": 40000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 27,
+  "fields": {
+    "budget": 28000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 28,
+  "fields": {
+    "budget": 16500000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 30,
+  "fields": {
+    "budget": 19000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 31,
+  "fields": {
+    "budget": 105000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 32,
+  "fields": {
+    "budget": 19000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 33,
+  "fields": {
+    "budget": 19000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 34,
+  "fields": {
+    "budget": 103000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 35,
+  "fields": {
+    "budget": 35000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 36,
+  "fields": {
+    "budget": 30000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 37,
+  "fields": {
+    "budget": 29000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 38,
+  "fields": {
+    "budget": 25000000
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 40,
+  "fields": {
+    "budget": 98000000
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 81,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 82,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 83,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 84,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 85,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 86,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 87,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 88,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 89,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 90,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 91,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 92,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 93,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 95,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 96,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 97,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 98,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 99,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 101,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 102,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 103,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 104,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 105,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 106,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 107,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 108,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 109,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 111,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 112,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 113,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 114,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 116,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 117,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 118,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 119,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 121,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 122,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 123,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 125,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 126,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 127,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 128,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 129,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 130,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 131,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 132,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 133,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 134,
+  "fields": {}
+},
+{
+  "model": "catalog.book",
+  "pk": 135,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 41,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 42,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 43,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 44,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 45,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 46,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 47,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 48,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 49,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 50,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 51,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 52,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 53,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 54,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 55,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 57,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 58,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 59,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 60,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 61,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 62,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 63,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 65,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 66,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 67,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 68,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 69,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 70,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 71,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 72,
+  "fields": {}
+},
+{
+  "model": "catalog.series",
+  "pk": 73,
+  "fields": {}
+},
+{
+  "model": "catalog.computergame",
+  "pk": 136,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 137,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 138,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 139,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 140,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 141,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 142,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 143,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 144,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 145,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 146,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 147,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 148,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 149,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 150,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 151,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 152,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 153,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 154,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 155,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 156,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 157,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 158,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 159,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 160,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 161,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 162,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 163,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 164,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 165,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 166,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 167,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 168,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 169,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 170,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 171,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 172,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 173,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 174,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 175,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 176,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 177,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 178,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 179,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 180,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 181,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 182,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 183,
+  "fields": {
+    "budget": null
+  }
+},
+{
+  "model": "catalog.computergame",
+  "pk": 184,
+  "fields": {
+    "budget": null
+  }
+}
+]

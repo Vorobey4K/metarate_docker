@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'users/css/profile.css' %}">
+{% endblock %}
+{% block title %}Профиль — {{ user.username }}{% endblock %}
+
+{% block content %}
+<section class="profile">
+
+    <!-- ===== ПРОФИЛЬ ===== -->
+    <header class="profile-header">
+        <div class="profile-avatar">
+            {% if user.profile.photo_exists %}
+                <img src="{{ user.profile.photo.url }}" alt="Аватар" class="avatar">
+            {% else %}
+                <img src="/media/users/icons/default_avatar.png" alt="Аватар" class="avatar">
+            {% endif %}
+        </div>
+
+        <div class="profile-info">
+            <h1 class="profile-username">{{ user.username }}</h1>
+            <p class="profile-name">{{ user.first_name }} {{ user.last_name }}</p>
+            <p class="profile-email">{{ user.email }}</p>
+
+            <ul class="profile-stats">
+                <li><span>Фильмы:</span> <strong>{{ completed_counts.Movie }}</strong></li>
+                <li><span>Сериалы:</span> <strong>{{ completed_counts.Series }}</strong></li>
+                <li><span>Игры:</span> <strong>{{ completed_counts.ComputerGame }}</strong></li>
+                <li><span>Книги:</span> <strong>{{ completed_counts.Book }}</strong></li>
+            </ul>
+        </div>
+
+        <div class="profile-actions">
+            <p><a href="{% url 'users:update_profile' %}" class="action-link">Редактировать профиль</a></p>
+            <p><a href="{% url 'users:password_change' %}" class="action-link">Изменить пароль</a></p>
+            <p><a href="{% url 'users:logout' %}" class="action-link">Выйти</a></p>
+        </div>
+    </header>
+
+    <!-- ===== ВКЛАДКИ ===== -->
+    <nav class="profile-tabs">
+        <a href="?tab=completed" class="{% if tab == 'completed' %}active{% endif %}">Завершённое</a>
+        <a href="?tab=reviews" class="{% if tab == 'reviews' %}active{% endif %}">Рецензии</a>
+        <a href="?tab=planned" class="{% if tab == 'planned' %}active{% endif %}">Закладки</a>
+    </nav>
+
+    <!-- ===== ФИЛЬТРЫ ===== -->
+    {% include 'users/includes/filter_content.html' %}
+
+    <!-- ===== КОНТЕНТ ===== -->
+    <section class="profile-content">
+        {% if tab == 'reviews' %}
+            {% include 'users/includes/list_review.html' %}
+        {% else %}
+            {% include 'catalog/includes/list_content.html' %}
+        {% endif %}
+    </section>
+
+</section>
+{% endblock %}

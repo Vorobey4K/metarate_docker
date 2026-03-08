@@ -1,0 +1,151 @@
+/* ===============================
+   content_cards.css — карточки контента с полными изображениями
+   =============================== */
+
+/* ---------- Контейнер карточек ---------- */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* ---------- Одна карточка ---------- */
+.card {
+  width: 220px;               /* фиксированная ширина */
+  background-color: var(--color-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+/* Hover карточки */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Заголовок карточки ---------- */
+.card-header {
+  padding: 10px;
+  background-color: var(--color-surface);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;       /* выравнивание по центру */
+  display: -webkit-box;     /* для обрезки текста */
+  -webkit-line-clamp: 2;    /* максимум 2 строки */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;  /* многоточие, если текст длинный */
+  line-height: 1.3em;
+  height: 2.6em;            /* фиксируем высоту под 2 строки */
+}
+
+.card-link {
+  color: var(--color-accent-main);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.card-link:hover {
+  color: var(--color-accent-secondary);
+}
+
+/* ---------- Изображение ---------- */
+.card-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-image img {
+  width: 100%;      /* растягиваем по ширине карточки */
+  height: auto;     /* сохраняем пропорции */
+  display: block;
+  transition: transform 0.3s;
+}
+
+.card-image img:hover {
+  transform: scale(1.05);
+}
+
+/* ---------- Тело карточки ---------- */
+.card-body {
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.card-rating {
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+/* ---------- Сообщение если нет карточек ---------- */
+.no-content {
+    text-align: center;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    padding: 20px;
+    background-color: var(--color-surface);
+    border-radius: 12px;
+}
+
+/* ---------- Адаптивность ---------- */
+@media (max-width: 1024px) {
+  .card-title {
+    font-size: 1.05rem;
+  }
+
+  .card-description {
+    font-size: 0.88rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .card {
+    width: 180px;
+  }
+}
+
+
+.card {
+  position: relative;
+}
+
+/* overlay-ссылка */
+.card-overlay-link {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: block;          /* ВАЖНО */
+}
+
+/* весь контент не перехватывает клики */
+.card > *:not(.card-overlay-link) {
+  pointer-events: none;
+}
+/* Контент карточки поверх ссылки (чтобы был виден) */

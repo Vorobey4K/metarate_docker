@@ -1,0 +1,152 @@
+.home-intro,
+.home-actions,
+.home-about,
+.home-roadmap {
+  max-width: 1200px;
+  margin: 40px auto; /* разделяем секции сверху/снизу */
+  padding: 40px 20px;
+  border-radius: 12px;
+  background-color: var(--color-surface); /* мягкий светлый фон */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* ---------- Главный блок ---------- */
+.home-intro {
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 15px;
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+}
+
+/* ---------- Заголовки секций ---------- */
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* ---------- Ссылки-действия (кнопки) ---------- */
+.action-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.action-link {
+  position: relative;
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 8px;
+  background-color: var(--color-accent-main);
+  color: var(--color-bg);
+  font-weight: 500;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Overlay для мягкого hover */
+.action-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-accent-secondary);
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 8px;
+}
+
+.action-link:hover::after {
+  opacity: 0.2;
+}
+
+.action-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Текст над overlay */
+.action-link span {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- Центрирование текста для последних двух блоков ---------- */
+.home-about,
+.home-roadmap {
+  text-align: center;
+}
+
+/* ---------- Списки ---------- */
+.features-list,
+.roadmap-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px auto 0 auto;
+  max-width: 700px;
+}
+
+.features-list li,
+.roadmap-list li {
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;       /* текст внутри li по левому */
+  padding-left: 1.8em;
+}
+
+/* Галочки */
+.features-list li::before,
+.roadmap-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  color: var(--color-accent-main);
+  font-weight: bold;
+}
+
+/* ---------- Адаптивность ---------- */
+@media (max-width: 1024px) {
+  .home-title {
+    font-size: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .action-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .home-title {
+    font-size: 2.2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .features-list li,
+  .roadmap-list li {
+    display: block;
+    text-align: left;
+  }
+}

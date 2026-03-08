@@ -1,0 +1,164 @@
+/* ===============================
+   content_detail.css — страница детали контента
+   =============================== */
+
+/* ---------- Общий контейнер ---------- */
+.content-detail {
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px;
+}
+
+/* ---------- Карточка ---------- */
+.card-detail {
+  max-width: 900px;
+  width: 100%;
+  background-color: var(--color-bg);
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- Заголовок ---------- */
+.card-detail-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.card-detail-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  line-height: 1.25;
+  min-height: calc(1.25em * 2);
+}
+
+/* ---------- Изображение ---------- */
+.card-detail-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.card-poster {
+  max-width: 280px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Информация ---------- */
+.card-detail-info {
+  font-size: 0.95rem;
+  color: var(--color-text-primary);
+  margin-bottom: 25px;
+}
+
+.card-detail-info p {
+  margin: 8px 0;
+}
+
+.card-detail-info strong {
+  color: var(--color-text-secondary);
+}
+
+/* ---------- Действия ---------- */
+.card-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+/* Формы-кнопки */
+.action-form {
+  margin: 0;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.action-button:hover {
+  background-color: var(--color-accent-main);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* Ссылка */
+.action-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 8px;
+
+  text-decoration: none;
+  color: var(--color-accent-main);
+  background-color: var(--color-surface);
+
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.action-link:hover {
+  background-color: var(--color-accent-main);
+  color: #fff;
+}
+
+/* ---------- Назад ---------- */
+.card-detail-back {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-detail-back a {
+  text-decoration: none;
+  color: var(--color-accent-main);
+  font-weight: 500;
+}
+
+.card-detail-back a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Адаптив ---------- */
+@media (max-width: 768px) {
+  .card-detail {
+    padding: 20px;
+  }
+
+  .card-detail-title {
+    font-size: 1.6rem;
+  }
+
+  .card-poster {
+    max-width: 220px;
+  }
+
+  .card-detail-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .action-button,
+  .action-link {
+    justify-content: center;
+  }
+}

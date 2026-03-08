@@ -1,0 +1,67 @@
+/* ===============================
+   profile_filter.css — фильтры профиля
+   =============================== */
+
+/* ---------- Контейнер фильтров ---------- */
+.filter-section {
+  margin: 20px 0 40px 0;
+  text-align: center;
+  background-color: var(--color-surface);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* ---------- Форма фильтров ---------- */
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Метки фильтров */
+.filter-label {
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+/* Выпадающие списки */
+.filter-select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+/* Кнопка применения фильтров */
+.filter-button {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--color-accent-main);
+  color: var(--color-bg);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.filter-button:hover {
+  background-color: var(--color-accent-secondary);
+}
+
+/* ---------- Адаптивность ---------- */
+@media (max-width: 768px) {
+  .filter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .filter-select, .filter-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

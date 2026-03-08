@@ -1,0 +1,20 @@
+{% extends 'universal_form.html' %}
+{% load static %}
+{% block extra_head %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'users/css/login.css' %}">
+{% endblock %}
+{% block title %}{{ title }}{% endblock %}
+
+
+{% block form_extra %}
+    <div class="auth-links">
+        <p><a href="{% url 'users:register' %}" class="auth-link">Регистрация</a></p>
+        <p><a href="{% url 'users:password_reset' %}" class="auth-link">Забыли пароль?</a></p>
+        <p>
+            <a href="{% url 'social:begin' 'github' %}" class="auth-link">
+                <img src="/media/users/icons/github.png" alt="GitHub" class="auth-social-icon">
+            </a>
+        </p>
+    </div>
+{% endblock %}
